@@ -70,16 +70,7 @@
         "tool_quality": 1,
         "cost_scaling": 0.1,
         "move_cost": 800
-      },
-      {
-        "type": "sew_advanced",
-        "materials": [
-          "slime"
-        ],
-        "skill": "tailor",
-        "clothing_mods": [ "leather_padded", "kevlar_padded", "furred", "wooled" ]
       }
-    ],
-    "flags": [ "ALLOWS_REMOTE_USE" ]
+    ]
   }
 ]
