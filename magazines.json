@@ -1,0 +1,21 @@
+[
+  {
+    "id": "bfmag",
+    "type": "MAGAZINE",
+    "category": "spare_parts",
+    "name": "blob feed magazine",
+    "name_plural": "blob feed magazines",
+    "description": "This is a compact container used for delivering blob feed to various slime based tools and armour that need it to function.",
+    "weight": "5 g",
+    "volume": 0,
+    "price": 1500,
+    "material": [ "iron", "plastic" ],
+    "symbol": "=",
+    "color": "yellow",
+    "ammo_type": "bfeed",
+    "capacity": 250,
+    "looks_like": "battery",
+    "flags": [ "NO_SALVAGE", "MAG_COMPACT" ]
+  }
+
+]
