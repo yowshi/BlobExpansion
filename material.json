@@ -10,22 +10,17 @@
     "latent_heat": 205,
     "soft": true,
     "reinforces": true,
-    "bash_resist": 12,
-    "cut_resist": 12,
-    "acid_resist": 12,
-    "fire_resist": 10,
+    "bash_resist": 10,
+    "cut_resist": 10,
+    "acid_resist": 20,
+    "fire_resist": 20,
     "elec_resist": 10,
-    "chip_resist": 12,
+    "chip_resist": 10,
     "repaired_with": "slime_scrap",
     "salvaged_into": "slime_scrap",
     "dmg_adj": [ "ripped", "torn", "shredded", "tattered" ],
     "bash_dmg_verb": "ripped",
-    "cut_dmg_verb": "cut",
-    "burn_data": [
-      { "fuel": 1, "smoke": 1, "burn": 1, "volume_per_turn": "1250 ml" },
-      { "fuel": 1, "smoke": 1, "burn": 1 },
-      { "fuel": 1, "smoke": 1, "burn": 2 }
-    ]
+    "cut_dmg_verb": "cut"
   },
   {
     "type": "COMESTIBLE",
