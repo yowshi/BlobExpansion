@@ -1,0 +1,47 @@
+[
+  {
+    "result": "slime_climate_suit",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "12 h",
+    "autolearn": true,
+    "components": [ [ [ "gloople", 1 ] ], [ [ "glowie", 1 ] ], [ [ "bfeed", 100 ] ] ]
+  },
+  {
+    "result": "bfmag",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "10 s",
+    "autolearn": true,
+    "components": [ [ [ "bfeed", 10 ] ] ]
+  },
+  {
+    "result": "bfmagmed",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "20 s",
+    "autolearn": true,
+    "components": [ [ [ "bfeed", 20 ] ] ]
+  },
+  {
+    "result": "slimey_tool_block",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "6 h",
+    "autolearn": true,
+    "components": [ [ [ "gray", 1 ] ] ]
+  }
+  
+]

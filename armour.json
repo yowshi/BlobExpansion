@@ -71,7 +71,7 @@
     "magazines": [
       [
         "bfeed",
-        [ "bfmag" ]
+        [ "bfmag", "bfmagmed" ]
       ]
     ],
     "magazine_well": 2
@@ -84,7 +84,7 @@
     "name_plural": "thermal electric outfits (on)",
     "description": "This is a gloople frame that has been transformed into a skin tight suit and combined with a gelectrode. While it is slightly squishy on the inside and seems reluctant to let you take it off it does seem to keep you at a comfortable temperature. It occasionally makes soft gurgling sounds as it digests it's blob feed. Use it to make it go dormant. ",
     "flags": [ "VARSIZE", "SKINTIGHT", "TRADER_AVOID", "CLIMATE_CONTROL" ],
-    "power_draw": 13000,
+    "power_draw": 1300,
     "revert_to": "thermal_outfit",
     "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "Your %s goes dormant.", "target": "slime_climate_suit" },
     "covers": [ "HEAD", "MOUTH", "TORSO", "ARMS", "LEGS", "HANDS", "FEET" ],
