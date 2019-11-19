@@ -128,5 +128,27 @@
     "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "Your %s goes dormant.", "target": "slime_climate_suit" },
     "covers": [ "HEAD", "MOUTH", "TORSO", "ARMS", "LEGS", "HANDS", "FEET" ],
     "magazine_well": 2
+  },
+  {
+    "id": "slimy_backpack",
+    "type": "ARMOR",
+    "name": "large slimy pouch",
+    "description": "A large number of blob globs formed into a huge backpack. It holds onto the items within somewhat tighyly and burps loudly whenever you put large amounts of stuff in it at a time.",
+    "weight": "1140 g",
+    "volume": "4 L",
+    "price": 9200,
+    "price_postapoc": 15900,
+    "rigid": false,
+    "material": [ "slime" ],
+    "symbol": "[",
+    "looks_like": "rucksack",
+    "color": "dark_gray",
+    "covers": [ "TORSO" ],
+    "coverage": 40,
+    "encumbrance": 6,
+    "max_encumbrance": 20,
+    "storage": "40 L",
+    "material_thickness": 2,
+    "flags": [ "BELTED", "WATER_FRIENDLY", "STURDY", "OVERSIZE", "TRADER_AVOID" ]
   }
 ]
