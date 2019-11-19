@@ -6,7 +6,7 @@
     "symbol": "q",
     "weight": 9836,
     "covers": [ "HEAD", "MOUTH", "EYES", "TORSO", "ARMS", "HANDS", "LEGS", "FEET" ],
-    "description": "A Queen blob molded to act as an oversuit. It's adaptive intelligence provides many benefits, not least of which is it's internal climate control. You have the unnerving idea that it's somehow learning from you and the way you move. You can activate it in dire situations... But only if you have to.",
+    "description": "A Queen blob molded to act as an oversuit. It's adaptive intelligence provides many benefits, not least of which is it's internal climate control. You have the unnerving idea that it's somehow learning from you and the way you move. The queen can be agitated to activate combat mode... If she's been fed.",
     "looks_like": "rm13_armor_on",
     "artifact_data": { "effects_worn": ["AEP_ALL_UP", "AEP_CARRY_MORE", "AEP_PSYSHIELD", "AEP_FUN" ] },
     "volume": 6,
@@ -14,6 +14,24 @@
     "coverage": 100,
     "material_thickness": 2,
     "qualities": [ [ "GLARE", 3 ] ],
+    "material": [ "slime" ],
+    "ammo": "bfeed",
+     "use_action": {
+      "type": "transform",
+      "msg": "You activate your %s.",
+      "target": "slime_climate_suit_on",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The %s is out of blob feed."
+    },
+    "magazines": [
+      [
+        "bfeed",
+        [ "bfmag", "bfmagmed" ]
+      ]
+    ],
+    "magazine_well": 2,
+    
     "extend": {
       "flags": [
         "ALARMCLOCK",
@@ -39,6 +57,22 @@
         "WATER_FRIENDLY",
         "WATERPROOF" ]
   }
+},
+    {
+    "id": "queensuit_mad",
+    "copy-from": "queensuit",
+    "type": "TOOL_ARMOR",
+    "name": "queensuit - combat mode",
+    "name_plural": "queensuits (on)",
+    "description": "A Queen blob molded to act as an oversuit. It's adaptive intelligence provides many benefits, not least of which is it's internal climate control. You have the unnerving idea that it's somehow learning from you and the way you move. This queen has been incited into combat mode, and is consuming blob-feed to enhance your close combat abilities.",
+    "flags": [ "VARSIZE", "SKINTIGHT", "TRADER_AVOID", "CLIMATE_CONTROL" ],
+    "artifact_data": { "effects_worn": ["AEP_ALL_UP", "AEP_CARRY_MORE", "AEP_PSYSHIELD", "AEP_FUN", "AEP_STR_UP", "AEP_DEX_UP", "AEP_PER_UP", "AEP_INT_UP", "AEP_SPEED_UP", "AEP_CLAIRVOYANCE", "AEP_GLOW", "AEP_RESIST_ELECTRICITY", "AEP_SAP_LIFE" ] },
+
+    "power_draw": 4000,
+    "environmental_protection": 50,
+    "revert_to": "queensuit",
+    "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "Your %s goes quiescent, for now.", "target": "queensuit" },
+    "covers": [ "HEAD", "MOUTH", "TORSO", "ARMS", "LEGS", "HANDS", "FEET" ]
   },
    {
     "id": "slime_climate_suit",
@@ -58,11 +92,11 @@
     "ammo": "bfeed",
     "use_action": {
       "type": "transform",
-      "msg": "You activate your %s.",
+      "msg": "Your %s wakes up.",
       "target": "slime_climate_suit_on",
       "active": true,
       "need_charges": 1,
-      "need_charges_msg": "The %s if out of blob feed."
+      "need_charges_msg": "The %s is out of blob feed."
     },
     "covers": [ "HEAD", "MOUTH", "TORSO", "ARMS", "LEGS", "HANDS", "FEET" ],
     "warmth": 10,
