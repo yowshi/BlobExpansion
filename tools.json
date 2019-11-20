@@ -133,6 +133,26 @@
     "watertight": true,
     "armor_data": { "covers": [ "TORSO" ], "coverage": 15, "material_thickness": 2 },
     "flags": [ "BELTED", "WATER_FRIENDLY" ]
+  },
+  {
+    "id": "geljack",
+    "type": "TOOL",
+    "name": "gelacier jackhammer",
+    "description": "This is a gelacier you have molded and shaped. When you squeeze the handles the end thrusts like a jackhammer. You swear you can hear it squee with joy every time you use it.",
+    "weight": "15000 g",
+    "volume": "5 L",
+    "price": 40000,
+    "to_hit": -3,
+    "bashing": 14,
+    "cutting": 6,
+    "material": "slime",
+    "symbol": ";",
+    "color": "light_gray",
+    "ammo": "bfeed",
+    "max_charges": 400,
+    "charges_per_use": 10,
+    "use_action": "JACKHAMMER",
+    "flags": [ "STAB", "DIG_TOOL", "POWERED" ]
   }
   
 ]

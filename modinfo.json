@@ -3,7 +3,7 @@
     "type": "MOD_INFO",
     "ident": "BlazemodBlobAddon",
     "name": "Return Of The Blob",
-    "authors": [ "Dev_Null" ],
+    "authors": [ "Dev_Null", "yowshi" ],
     "maintainers": [ "Anyone" ],
     "description": "Expands the amount of blob-based vehicle parts.",
     "category": "vehicle",

@@ -13,8 +13,8 @@
   {
     "result": "bfmag",
     "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_SUIT",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "cooking",
     "difficulty": 6,
     "time": "10 s",
@@ -24,8 +24,8 @@
   {
     "result": "bfmagmed",
     "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_SUIT",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "cooking",
     "difficulty": 6,
     "time": "20 s",
@@ -35,8 +35,8 @@
   {
     "result": "slimey_tool_block",
     "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_SUIT",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "cooking",
     "difficulty": 6,
     "time": "6 h",
@@ -70,8 +70,8 @@
   {
     "result": "slimey_water_purifier",
     "type": "recipe",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_OTHER",
     "skill_used": "cooking",
     "difficulty": 6,
     "time": "1 h",
@@ -127,6 +127,19 @@
     "time": "3 h",
     "autolearn": true,
     "components": [ [ [ "slime_scrap", 50 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "geljack",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "2 h",
+    "autolearn": true,
+    "qualities": [ { "id": "HAMMER", "level": 3 } ],
+    "components": [ [ [ "frostie", 1 ] ]
+    ]
   }
   
 ]
