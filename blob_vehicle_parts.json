@@ -250,7 +250,6 @@
     "rolling_resistance": 1.75,
     "wheel_type": "standard",
     "contact_area": 153,
-	"requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "WHEEL", "TOOL_NONE", "FOLDABLE", "TRACKED", "STABLE", "STEERABLE" ]
   },
     {
