@@ -104,8 +104,9 @@
       "need_charges_msg": "The %s is out of blob feed."
     },
     "covers": [ "HEAD", "MOUTH", "TORSO", "ARMS", "LEGS", "HANDS", "FEET" ],
-    "warmth": 10,
+    "warmth": 20,
     "coverage": 100,
+	"environmental_protection": 2,
     "material_thickness": 1,
     "magazines": [
       [
