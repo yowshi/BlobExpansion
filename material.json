@@ -1,5 +1,4 @@
 [
-
   {
     "type": "material",
     "ident": "slime",
@@ -10,8 +9,8 @@
     "latent_heat": 205,
     "soft": true,
     "reinforces": true,
-    "bash_resist": 10,
-    "cut_resist": 10,
+    "bash_resist": 2,
+    "cut_resist": 2,
     "acid_resist": 20,
     "fire_resist": 20,
     "elec_resist": 10,
@@ -37,6 +36,6 @@
     "price": 0,
     "volume": "250 ml",
     "fun": -10,
-	"material": "slime"
+    "material": "slime"
   }
 ]

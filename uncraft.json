@@ -4,89 +4,89 @@
     "result": "queen",
     "time": "30 s",
     "components": [ [ [ "queengrow", 2 ] ] ]
-    },
+  },
   {
     "type": "uncraft",
     "result": "razorqueen",
     "time": "30 s",
     "components": [ [ [ "razorqueengrow", 2 ] ] ]
-    },
-      {
+  },
+  {
     "type": "uncraft",
     "result": "sharp",
     "time": "30 s",
     "components": [ [ [ "sharpgrow", 2 ] ] ]
-    },
+  },
   {
     "type": "uncraft",
     "result": "gelrazor",
     "time": "30 s",
     "components": [ [ [ "sicklegrow", 2 ] ] ]
-    },
-      {
+  },
+  {
     "type": "uncraft",
     "result": "sparkie",
     "time": "30 s",
     "components": [ [ [ "sparkiegrow", 2 ] ] ]
-    },
+  },
   {
     "type": "uncraft",
     "result": "stickie",
     "time": "30 s",
     "components": [ [ [ "stickiegrow", 2 ] ] ]
-    },
-      {
+  },
+  {
     "type": "uncraft",
     "result": "torchie",
     "time": "30 s",
     "components": [ [ [ "torchiegrow", 2 ] ] ]
-    },
+  },
   {
     "type": "uncraft",
     "result": "voideater",
     "time": "30 s",
     "components": [ [ [ "voideatergrow", 2 ] ] ]
-    },
-      {
+  },
+  {
     "type": "uncraft",
     "result": "horror",
     "time": "30 s",
     "components": [ [ [ "horrorgrow", 2 ] ] ]
-    },
+  },
   {
     "type": "uncraft",
     "result": "inkie",
     "time": "30 s",
     "components": [ [ [ "inkiegrow", 2 ] ] ]
-    },
-     {
+  },
+  {
     "type": "uncraft",
     "result": "fuzzle",
     "time": "30 s",
     "components": [ [ [ "fuzzlegrow", 2 ] ] ]
-    },
-      {
+  },
+  {
     "type": "uncraft",
     "result": "biter",
     "time": "30 s",
     "components": [ [ [ "bitergrow", 2 ] ] ]
-    },
+  },
   {
     "type": "uncraft",
     "result": "clutter",
     "time": "30 s",
     "components": [ [ [ "cluttergrow", 2 ] ] ]
-    },
-      {
+  },
+  {
     "type": "uncraft",
     "result": "spouterqueen",
     "time": "30 s",
     "components": [ [ [ "queengrow", 2 ] ] ]
-    },
-      {
+  },
+  {
     "type": "uncraft",
     "result": "freezie",
     "time": "30 s",
     "components": [ [ [ "freeziegrow", 2 ] ] ]
-    }
+  }
 ]

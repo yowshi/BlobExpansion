@@ -46,13 +46,13 @@
   {
     "type": "recipe",
     "result": "slime_scrap",
-	"id_suffix": "blob assisted",
+    "id_suffix": "blob assisted",
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_CHEMICALS",
     "skill_used": "cooking",
     "difficulty": 6,
     "time": "20 s",
-	"autolearn": true,
+    "autolearn": true,
     "tools": [ [ [ "gloople", -1 ], [ "oozle", -1 ], [ "gray", -1 ] ] ],
     "components": [ [ [ "meat_tainted", 1 ], [ "dry_meat_tainted", 1 ] ] ]
   },
@@ -88,8 +88,7 @@
     "difficulty": 2,
     "time": "30 m",
     "autolearn": true,
-    "components": [ [ [ "slime_scrap", 4 ] ]
-    ]
+    "components": [ [ [ "slime_scrap", 4 ] ] ]
   },
   {
     "type": "recipe",
@@ -101,8 +100,7 @@
     "difficulty": 2,
     "time": "30 m",
     "autolearn": true,
-    "components": [ [ [ "slime_scrap", 8 ] ]
-    ]
+    "components": [ [ [ "slime_scrap", 8 ] ] ]
   },
   {
     "type": "recipe",
@@ -114,8 +112,7 @@
     "difficulty": 3,
     "time": "30 m",
     "autolearn": true,
-    "components": [ [ [ "slime_scrap", 12 ] ]
-    ]
+    "components": [ [ [ "slime_scrap", 12 ] ] ]
   },
   {
     "result": "slimy_backpack",
@@ -138,8 +135,29 @@
     "time": "2 h",
     "autolearn": true,
     "qualities": [ { "id": "HAMMER", "level": 3 } ],
-    "components": [ [ [ "frostie", 1 ] ]
-    ]
+    "components": [ [ [ "frostie", 1 ] ] ]
+  },
+  {
+    "result": "blobprogramer",
+    "type": "recipe",
+    "category": "CC_CHEM",
+    "subcategory": "CC_CHEM_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 10,
+    "time": "1 d",
+    "autolearn": true,
+    "components": [ [ [ "queen", 1 ] ], [ [ "eink_tablet_pc", 1 ] ] ]
+  },
+  {
+    "result": "pufferchemicalfactory",
+    "type": "recipe",
+    "category": "CC_CHEM",
+    "subcategory": "CC_CHEM_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 10,
+    "time": "1 d",
+    "autolearn": true,
+    "qualities": [ { "id": "blobprog", "level": 1 } ],
+    "components": [ [ [ "inkie", 1 ] ], [ [ "meltie", 1 ] ], [ [ "stickie", 1 ] ] ]
   }
-  
 ]

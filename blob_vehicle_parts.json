@@ -6,10 +6,10 @@
     "symbol": "#",
     "color": "cyan",
     "broken_color": "cyan",
-	"requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "ALTERNATOR" ]
   },
-    {
+  {
     "id": "slime_butcher_rack",
     "type": "TOOL",
     "name": "slime butchering rack",
@@ -24,7 +24,7 @@
     "color": "light_gray",
     "use_action": { "type": "deploy_furn", "furn_type": "slime_butcher_deployed" }
   },
-    {
+  {
     "type": "furniture",
     "id": "slime_butcher_deployed",
     "name": "slime butchering rack",
@@ -41,7 +41,7 @@
     "qualities": [ [ "SAW_M", 2 ], [ "SAW_W", 2 ], [ "SAW_M_FINE", 2 ], [ "BUTCHER", 50 ] ],
     "deconstruct": { "items": [ { "item": "slime_butcher_rack", "count": 1 } ] }
   },
-    {
+  {
     "id": "fakeslime",
     "type": "TOOL",
     "name": "slimetool_fake",
@@ -73,7 +73,7 @@
     ],
     "flags": [ "DURABLE_MELEE" ]
   },
-    {
+  {
     "id": "gelectrode_engine",
     "copy-from": "engine_motor",
     "type": "vehicle_part",
@@ -86,11 +86,10 @@
     "damage_modifier": 80,
     "damage_reduction": { "all": 60 },
     "folded_volume": 1,
-	"requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "TOOL_NONE", "FOLDABLE", "ENGINE" ]
-
   },
-    {
+  {
     "type": "vehicle_part",
     "id": "slime_bed",
     "name": "slime bed",
@@ -108,12 +107,12 @@
     "floor_bedding_warmth": 450,
     "difficulty": 0,
     "folded_volume": 2,
-	"requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "location": "center",
     "flags": [ "BED", "BOARDABLE", "CARGO", "MOUNTABLE", "FOLDABLE", "TOOL_NONE" ],
     "damage_reduction": { "all": 3 }
   },
-    {
+  {
     "id": "queen_controller",
     "type": "vehicle_part",
     "name": "slime control station",
@@ -145,9 +144,10 @@
       "SEAT",
       "BED",
       "E_STARTS_INSTANTLY",
-      "TURRET_MOUNT" ]
-      },
-      {
+      "TURRET_MOUNT"
+    ]
+  },
+  {
     "type": "vehicle_part",
     "id": "slimecam",
     "name": "slimecurity camera",
@@ -166,10 +166,10 @@
     "epower": 0,
     "difficulty": 0,
     "location": "on_roof",
-	"requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "VISION", "CAMERA", "TOOL_NONE", "FOLDABLE" ]
-    },
-          {
+  },
+  {
     "type": "vehicle_part",
     "id": "slimecam_ceiling",
     "name": "slimecurity camera",
@@ -188,10 +188,10 @@
     "epower": 0,
     "difficulty": 0,
     "location": "on_ceiling",
-	"requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "VISION", "CAMERA", "TOOL_NONE", "FOLDABLE" ]
-    },
-{
+  },
+  {
     "id": "glowie_alternator4",
     "copy-from": "glowie_alternator",
     "type": "vehicle_part",
@@ -207,10 +207,10 @@
     "breaks_into": [ { "item": "glowiegrow" } ],
     "description": "A living, glowing blob.  It latches on to an engine, or engine-equivilant, and produces electricity. This particular varient requires excessive horsepower, and produces equally excessive electricity.",
     "damage_reduction": { "all": 25 },
-	"requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "TOOL_NONE", "FOLDABLE", "ALTERNATOR" ]
   },
-   {
+  {
     "type": "vehicle_part",
     "id": "queen_cargo_space",
     "name": "Amorphous cargo space",
@@ -226,7 +226,7 @@
     "difficulty": 0,
     "folded_volume": 5,
     "location": "center",
-	"requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "BOARDABLE", "CARGO", "COVERED", "FOLDABLE", "TOOL_NONE" ],
     "damage_reduction": { "all": 28 }
   },
@@ -252,7 +252,7 @@
     "contact_area": 153,
     "flags": [ "WHEEL", "TOOL_NONE", "FOLDABLE", "TRACKED", "STABLE", "STEERABLE" ]
   },
-    {
+  {
     "id": "frostie_freezer",
     "type": "vehicle_part",
     "name": "ice box",
@@ -274,7 +274,7 @@
     "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "CARGO", "OBSTACLE", "FREEZER", "COVERED", "TOOL_NONE", "FOLDABLE" ]
   },
-    {
+  {
     "id": "gloople_wheel_sea",
     "type": "vehicle_part",
     "name": "gelatinous sea skimmer",
@@ -310,11 +310,27 @@
     "item": "blob_crafter",
     "difficulty": 0,
     "location": "center",
-	"requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "CARGO", "TOWEL", "OBSTACLE", "CRAFTRIG", "WATER_PURIFIER", "COVERED", "TOOL_NONE", "FOLDABLE", "FLAT_SURF", "WORKBENCH", "CHEMLAB", "FAUCET", "FORGE", "KITCHEN", "WELDRIG" ],
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
+    "flags": [
+      "CARGO",
+      "TOWEL",
+      "OBSTACLE",
+      "CRAFTRIG",
+      "WATER_PURIFIER",
+      "COVERED",
+      "TOOL_NONE",
+      "FOLDABLE",
+      "FLAT_SURF",
+      "WORKBENCH",
+      "CHEMLAB",
+      "FAUCET",
+      "FORGE",
+      "KITCHEN",
+      "WELDRIG"
+    ],
     "damage_reduction": { "all": 20 }
   },
-   {
+  {
     "type": "vehicle_part",
     "id": "washing_blob",
     "name": "sanitation blob",
@@ -332,11 +348,11 @@
     "item": "gray",
     "difficulty": 0,
     "location": "center",
-	"requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "CARGO", "OBSTACLE", "WASHING_MACHINE", "DISHWASHER", "AUTOCLAVE", "COVERED", "TOOL_NONE", "FOLDABLE" ],
     "damage_reduction": { "all": 32 }
   },
-   {
+  {
     "type": "vehicle_part",
     "id": "blob_funnel",
     "name": "blob funnel",
@@ -353,11 +369,11 @@
     "difficulty": 0,
     "location": "on_roof",
     "folded_volume": 1,
-	"requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "FUNNEL", "FOLDABLE" ],
     "damage_reduction": { "all": 12 }
-    },
-      {
+  },
+  {
     "id": "aisle_lights_blob",
     "type": "vehicle_part",
     "name": "blob aisle lights",
@@ -372,10 +388,10 @@
     "difficulty": 0,
     "bonus": 30,
     "folded_volume": 1,
-	"requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "AISLE_LIGHT", "TOOL_NONE", "FOLDABLE" ]
   },
-    {
+  {
     "type": "vehicle_part",
     "id": "gelcharge_station",
     "name": "gelectrode recharging station",
@@ -393,7 +409,7 @@
     "item": "glowie",
     "difficulty": 0,
     "location": "on_cargo",
-	"requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "INTERNAL", "RECHARGE", "FOLDABLE", "TOOL_NONE" ],
     "folded_volume": 3,
     "damage_reduction": { "all": 10 }
@@ -414,7 +430,7 @@
     "folded_volume": 1,
     "item": "frostie",
     "location": "structure",
-	"requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "VISION", "PROTRUSION", "FOLDABLE" ]
   },
   {
@@ -433,10 +449,10 @@
     "folded_volume": 1,
     "item": "frostie",
     "location": "on_windshield",
-	"requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "VISION", "FOLDABLE" ]
   },
-    {
+  {
     "id": "goo_floodlight",
     "type": "vehicle_part",
     "name": "gelectrode floodlight",
@@ -453,7 +469,7 @@
     "bonus": 8000,
     "damage_modifier": 10,
     "folded_volume": 1,
-	"requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "CIRCLE_LIGHT", "FOLDABLE", "TOOL_NONE" ]
   },
   {
@@ -470,10 +486,10 @@
     "difficulty": 0,
     "folded_volume": 1,
     "breaks_into": [ { "item": "freezie" } ],
-	"requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "extend": { "flags": [ "USE_TANKS", "FOLDABLE", "TOOL_NONE" ] }
   },
-    {
+  {
     "type": "vehicle_part",
     "id": "slime_turret_controls",
     "name": "slime auto-turret controller",
@@ -489,10 +505,10 @@
     "item": "queen",
     "description": "This queen has been attached to a turret mounting. It has learned to shoot anything besides you... Or at least, anything that doesn't feed it regularly.",
     "folded_volume": 1,
-	"requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "FOLDABLE", "TURRET_CONTROLS", "TOOL_NONE" ]
   },
-    {
+  {
     "type": "vehicle_part",
     "id": "slime_curtain",
     "name": "slime curtain",
@@ -509,10 +525,10 @@
     "bonus": 25,
     "item": "gloople",
     "location": "on_windshield",
-	"requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "OPENABLE", "OPENCLOSE_INSIDE", "OPAQUE", "CURTAIN", "WINDOW_CURTAIN", "MULTISQUARE", "FOLDABLE", "TOOL_NONE" ]
   },
-    {
+  {
     "type": "vehicle_part",
     "id": "slime_clock",
     "name": "slime clock",
@@ -526,10 +542,10 @@
     "difficulty": 0,
     "folded_volume": 1,
     "item": "gray",
-	"requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "WATCH", "ALARMCLOCK", "FOLDABLE", "TOOL_NONE" ]
   },
-    {
+  {
     "type": "vehicle_part",
     "id": "solar_slime",
     "name": "solar gelectrode",
@@ -546,7 +562,7 @@
     "epower": 300,
     "difficulty": 0,
     "location": "on_roof",
-    "flags": [ "SOLAR_PANEL", "TOOL_NONE", "FOLDABLE"],
+    "flags": [ "SOLAR_PANEL", "TOOL_NONE", "FOLDABLE" ],
     "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } }
   }
-  ]
+]

@@ -5,9 +5,7 @@
     "name": "Blob Wrangler",
     "description": "Your choice in vehicle parts seems to greatly unnerve people. But in the Cataclysm, your ultra-sustainable supplies with a unique taste for 'biofuel' will probably keep you alive... so long as you feed it often enough.",
     "points": 8,
-        "skills": [
-      { "level": 6, "name": "cooking" }
-          ],
+    "skills": [ { "level": 6, "name": "cooking" } ],
     "items": {
       "both": {
         "items": [
@@ -43,9 +41,8 @@
           "oozle",
           "spouterqueen",
           "gelrazor"
-
         ],
-        "entries": [ { "group": "charged_cell_phone", "item": "bfeed", "charges": 1000} ]
+        "entries": [ { "group": "charged_cell_phone", "item": "bfeed", "charges": 1000 } ]
       },
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]

@@ -1,0 +1,14 @@
+[
+  {
+    "result": "plasma",
+    "type": "recipe",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_CHEMICALS",
+    "skill_used": "cooking",
+    "difficulty": 10,
+    "time": "6 h",
+    "autolearn": true,
+    "qualities": [ { "id": "blobchemfact", "level": 1 } ],
+    "components": [ [ [ "yeast", 25 ] ], [ [ "water", 50 ], [ "water_clean", 50 ] ] ]
+  }
+]
