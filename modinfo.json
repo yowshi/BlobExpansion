@@ -6,7 +6,7 @@
     "authors": [ "Dev_Null", "yowshi" ],
     "maintainers": [ "Anyone" ],
     "description": "Expands the amount of blob-based vehicle parts.",
-    "category": "vehicle",
+    "category": "content",
     "dependencies": [ "dda", "blazemod" ]
   }
 ]
