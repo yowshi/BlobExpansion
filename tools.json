@@ -32,7 +32,9 @@
       [ "FILE", 2 ],
       [ "REAM", 1 ],
       [ "VICE", 1 ],
-      [ "AXE", 4 ]
+      [ "AXE", 4 ],
+      [ "GRAFT", 1 ],
+      [ "DIG", 4 ]
     ],
     "ammo": "bfeed",
     "initial_charges": 400,
