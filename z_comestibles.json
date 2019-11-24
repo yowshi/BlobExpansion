@@ -62,6 +62,17 @@
     "flags": [ "ALLOW_ROTTEN" ]
   },
   {
+    "result": "slime_wheat_seed",
+    "id_suffix": "slime_wheat",
+    "type": "recipe",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SEEDS",
+    "skill_used": "cooking",
+    "autolearn": true,
+    "components": [ [ [ "slime_wheat", 1 ] ] ],
+    "flags": [ "ALLOW_ROTTEN" ]
+  },
+  {
     "type": "COMESTIBLE",
     "id": "slime_flour",
     "name": "slime wheat flour",
