@@ -58,7 +58,7 @@
     "subcategory": "CSC_FOOD_SEEDS",
     "skill_used": "cooking",
     "autolearn": true,
-    "components": [ [ [ "slime_wheat", 1 ] ], [ [ "slime_scrap", 1 ] ], [ [ "bfeed", 1 ] ] ],
+    "components": [ [ [ "wheat", 1 ] ], [ [ "slime_scrap", 1 ] ], [ [ "bfeed", 1 ] ] ],
     "flags": [ "ALLOW_ROTTEN" ]
   },
   {
