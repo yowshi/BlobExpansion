@@ -84,5 +84,18 @@
       ],
       [ [ "water", 1 ], [ "water_clean", 1 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "water_clean",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_DRINKS",
+    "skill_used": "cooking",
+    "charges": 4,
+    "time": "5 m",
+    "autolearn": true,
+    "batch_time_factors": [ 80, 4 ],
+    "qualities": [ { "id": "blobchemfact", "level": 1 } ],
+    "components": [ [ [ "slime_fluid_bladder", 1 ] ] ]
   }
 ]

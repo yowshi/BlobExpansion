@@ -100,7 +100,7 @@
     "name": "slime bread",
     "weight": "85 g",
     "color": "brown",
-    "spoils_in": "11 days 16 hours",
+    "spoils_in": "14 days 16 hours",
     "container": "bag_plastic",
     "comestible_type": "FOOD",
     "symbol": "%",
@@ -110,7 +110,8 @@
     "material": "wheat",
     "volume": "250 ml",
     "flags": [ "EATEN_HOT", "EDIBLE_FROZEN" ],
-    "vitamins": [ [ "calcium", 4 ], [ "iron", 25 ], [ "vitA", 5 ], [ "vitC", 5 ], [ "vitB", 15 ] ]
+    "vitamins": [ [ "calcium", 4 ], [ "iron", 25 ], [ "vitA", 5 ], [ "vitC", 5 ], [ "vitB", 15 ] ],
+    "fun": 5
   },
   {
     "type": "COMESTIBLE",
@@ -118,7 +119,7 @@
     "name": "slime meat bread",
     "weight": "85 g",
     "color": "brown",
-    "spoils_in": "11 days 16 hours",
+    "spoils_in": "14 days 16 hours",
     "container": "bag_plastic",
     "comestible_type": "FOOD",
     "symbol": "%",
@@ -128,6 +129,61 @@
     "material": [ "flesh", "veggy" ],
     "volume": "250 ml",
     "flags": [ "EATEN_HOT", "EDIBLE_FROZEN" ],
-    "vitamins": [ [ "calcium", 4 ], [ "iron", 25 ], [ "vitA", 5 ], [ "vitC", 5 ], [ "vitB", 25 ] ]
+    "vitamins": [ [ "calcium", 4 ], [ "iron", 25 ], [ "vitA", 5 ], [ "vitC", 5 ], [ "vitB", 25 ] ],
+    "fun": 5
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "slime_fluid_bladder",
+    "name": "slime fluid bladder",
+    "weight": "278 g",
+    "color": "blue",
+    "spoils_in": "60 days",
+    "comestible_type": "FOOD",
+    "symbol": "%",
+    "quench": 25,
+    "healthy": 1,
+    "calories": 35,
+    "description": "A tough leathery bladder harvested from a slime fluid plant. It seems to contain water, you could process it using a blob chemical factory.",
+    "price": 0,
+    "material": "veggy",
+    "volume": "250 ml",
+    "flags": [ "RAW" ],
+    "fun": 1
+  },
+  {
+    "id": "slime_fluid_seed",
+    "copy-from": "seed",
+    "type": "COMESTIBLE",
+    "name": "slime fluid plant seeds",
+    "name_plural": "slime fluid plant seeds",
+    "description": "A fungal fluid sac that have been processed by blob globs to produce a seed. ",
+    "weight": "5 g",
+    "price": 50,
+    "stack_size": 40,
+    "material": "slime",
+    "primary_material": "dried_vegetable",
+    "seed_data": { "plant_name": "slime fluid", "fruit": "slime_fluid_bladder", "byproducts": [ "slime_scrap" ], "grow": "20 days" }
+  },
+  {
+    "result": "slime_fluid_seed",
+    "type": "recipe",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SEEDS",
+    "skill_used": "cooking",
+    "autolearn": true,
+    "components": [ [ [ "plant_sac", 1 ] ], [ [ "slime_scrap", 1 ] ], [ [ "bfeed", 1 ] ] ],
+    "flags": [ "ALLOW_ROTTEN" ]
+  },
+  {
+    "result": "slime_fluid_seed",
+    "id_suffix": "slime_bladder",
+    "type": "recipe",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SEEDS",
+    "skill_used": "cooking",
+    "autolearn": true,
+    "components": [ [ [ "slime_fluid_bladder", 1 ] ] ],
+    "flags": [ "ALLOW_ROTTEN" ]
   }
 ]
