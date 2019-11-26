@@ -88,6 +88,7 @@
   {
     "type": "recipe",
     "result": "water_clean",
+    "id_suffix": "slime_fluid_bladder",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_DRINKS",
     "skill_used": "cooking",
