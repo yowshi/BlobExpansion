@@ -122,7 +122,7 @@
     "material": "wheat",
     "volume": "250 ml",
     "flags": [ "EATEN_HOT", "EDIBLE_FROZEN" ],
-    "vitamins": [ [ "calcium", 4 ], [ "iron", 25 ], [ "vitA", 5 ], [ "vitC", 5 ], [ "vitB", 15 ] ],
+    "vitamins": [ [ "calcium", 10 ], [ "iron", 10 ], [ "vitA", 10 ], [ "vitC", 10 ], [ "vitB", 10 ] ],
     "fun": 5
   },
   {
@@ -142,7 +142,7 @@
     "material": [ "flesh", "veggy" ],
     "volume": "250 ml",
     "flags": [ "EATEN_HOT", "EDIBLE_FROZEN" ],
-    "vitamins": [ [ "calcium", 4 ], [ "iron", 25 ], [ "vitA", 5 ], [ "vitC", 5 ], [ "vitB", 25 ] ],
+    "vitamins": [ [ "calcium", 10 ], [ "iron", 10 ], [ "vitA", 10 ], [ "vitC", 10 ], [ "vitB", 10 ] ],
     "fun": 5
   },
   {
