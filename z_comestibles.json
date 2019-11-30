@@ -164,7 +164,7 @@
     "volume": "250 ml",
     "flags": [ "EDIBLE_FROZEN" ],
     "charges": 10,
-    "vitamins": [ [ "calcium", 4 ], [ "iron", 40 ], [ "vitA", 5 ], [ "vitC", 5 ], [ "vitB", 25 ] ],
+    "vitamins": [ [ "calcium", 10 ], [ "iron", 10 ], [ "vitA", 10 ], [ "vitC", 10 ], [ "vitB", 10 ] ],
     "fun": -5
   }
 ]

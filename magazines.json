@@ -34,5 +34,23 @@
     "capacity": 500,
     "looks_like": "battery",
     "flags": [ "NO_SALVAGE", "MAG_COMPACT" ]
+  },
+  {
+    "id": "bfmagheavy",
+    "type": "MAGAZINE",
+    "category": "spare_parts",
+    "name": "blob feed magazine medium",
+    "name_plural": "blob feed magazines",
+    "description": "This is a massive container used for delivering blob feed to various slime based power suits.",
+    "weight": "5 g",
+    "volume": 0,
+    "price": 1500,
+    "material": [ "iron", "plastic" ],
+    "symbol": "=",
+    "color": "yellow",
+    "ammo_type": "bfeed",
+    "capacity": 10000,
+    "looks_like": "battery",
+    "flags": [ "NO_SALVAGE", "MAG_COMPACT" ]
   }
 ]
