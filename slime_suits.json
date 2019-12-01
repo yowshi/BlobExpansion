@@ -43,5 +43,26 @@
       "PATH_AVOID_DANGER_2",
       "LOUDMOVES"
     ]
+  },
+  {
+    "id": "reconsuit",
+    "name": "deplyable blob recon suit",
+    "type": "TOOL_ARMOR",
+    "category": "armor",
+    "symbol": "[",
+    "color": "light_gray",
+    "description": "This is a deployable module for the blob recon suit. use it to place down the blob pilotable suit.",
+    "flags": [ "VARSIZE", "SKINTIGHT", "ALLOWS_NATURAL_ATTACKS", "TRADER_AVOID" ],
+    "price": 30000,
+    "material": [ "slime" ],
+    "weight": "1 g",
+    "volume": "10 ml",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_blob_recon",
+      "friendly_msg": "Your blob recon suit deploys",
+      "moves": 1,
+      "place_randomly": false
+    }
   }
 ]

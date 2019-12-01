@@ -49,6 +49,7 @@
     "symbol": "=",
     "color": "yellow",
     "ammo_type": "bfeed",
+    "count": 10000,
     "capacity": 10000,
     "looks_like": "battery",
     "flags": [ "NO_SALVAGE", "MAG_COMPACT", "MECH_BAT" ]

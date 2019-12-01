@@ -37,5 +37,22 @@
     "volume": "250 ml",
     "fun": -10,
     "material": "slime"
+  },
+  {
+    "id": "refbfeed",
+    "type": "AMMO",
+    "category": "fuel",
+    "name": "refined blob feed",
+    "name_plural": "refined blob feed",
+    "weight": "10 g",
+    "symbol": "=",
+    "color": "red",
+    "material": "slime",
+    "fuel": { "energy": 10 },
+    "description": "Blob feed that has been refined and purifed by a blob chemical factory. It is now quite the compact packet of energy and slime nutrition.",
+    "container": "box_small",
+    "count": 250,
+    "volume": "250 ml",
+    "ammo_type": "bfeed"
   }
 ]

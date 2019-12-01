@@ -95,7 +95,7 @@
     "symbol": "[",
     "color": "light_gray",
     "name": "slime enviro suit",
-    "name_plural": "thermal electric outfits",
+    "name_plural": "slime enviro suits",
     "description": "This is a gloople frame that has been transformed into a skin tight suit and combined with a gelectrode. While it is slightly squishy on the inside and seems reluctant to let you take it off it does seem to keep you at a comfortable temperature. It is currently dormant, use it to wake it up.",
     "flags": [ "VARSIZE", "SKINTIGHT", "ALLOWS_NATURAL_ATTACKS", "TRADER_AVOID" ],
     "price": 30000,
