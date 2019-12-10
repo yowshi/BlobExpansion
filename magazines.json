@@ -52,6 +52,25 @@
     "count": 10000,
     "capacity": 10000,
     "looks_like": "battery",
-    "flags": [ "NO_SALVAGE", "MAG_COMPACT", "MECH_BAT" ]
+    "flags": [ "NO_SALVAGE", "MAG_COMPACT", "MECH_BAT", "TRADER_AVOID" ]
+  },
+    {
+    "id": "bammomag",
+    "type": "MAGAZINE",
+    "category": "spare_parts",
+    "name": "blob weapon magazine",
+    "name_plural": "blob weapon magazine",
+    "description": "A magazine specifically constructed out of blob globs to hold the ammo for your blob based weapons",
+    "weight": "5 g",
+    "volume": 0,
+    "price": 1500,
+    "material": [ "slime" ],
+    "symbol": "=",
+    "color": "yellow",
+    "ammo_type": "bfeed",
+    "count": 200,
+    "capacity": 200,
+    "looks_like": "battery",
+    "flags": [ "NO_SALVAGE", "MAG_COMPACT", "TRADER_AVOID" ]
   }
 ]

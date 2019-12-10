@@ -182,5 +182,28 @@
     "autolearn": true,
     "qualities": [ { "id": "blobchemfact", "level": 1 }, { "id": "blobprog", "level": 1 } ],
     "components": [ [ [ "queen", 3 ] ], [ [ "gray", 12 ] ], [ [ "glowie", 3 ] ], [ [ "frostie", 2 ] ] ]
+  },
+  {
+    "result": "slime_kit",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "6 h",
+    "autolearn": true,
+    "components": [ [ [ "gloople", 1 ] ], [ [ "slime_scrap", 10 ] ] ]
+  },
+  {
+    "result": "gelhotplate",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "6 h",
+    "autolearn": true,
+    "qualities": [ { "id": "GRAFT", "level": 1 } ],
+    "components": [ [ [ "glowie", 2 ] ], [ [ "slime_scrap", 5 ] ] ]
   }
 ]

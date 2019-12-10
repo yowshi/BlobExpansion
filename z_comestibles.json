@@ -121,7 +121,7 @@
     "price": 23,
     "material": "wheat",
     "volume": "250 ml",
-    "flags": [ "EATEN_HOT", "EDIBLE_FROZEN" ],
+    "flags": [ "EATEN_HOT", "EDIBLE_FROZEN", "NUTRIENT_OVERRIDE" ],
     "vitamins": [ [ "calcium", 10 ], [ "iron", 10 ], [ "vitA", 10 ], [ "vitC", 10 ], [ "vitB", 10 ] ],
     "fun": 5
   },

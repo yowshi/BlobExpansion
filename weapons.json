@@ -74,5 +74,38 @@
       "UNBREAKABLE_MELEE",
       "NON-FOULING"
     ]
+  },
+  {
+    "id": "ice_plinker",
+    "type": "GUN",
+    "name": "blob ice needle launcher",
+    "description": "You've managed to construct a blob based hand gun. When fired it shoots dozens of thin ice spines at your target.",
+    "weight": "1000 g",
+    "volume": "250 ml",
+    "to_hit": -5,
+    "bashing": 10,
+    "material": [ "slime" ],
+    "symbol": "&",
+    "color": "light_blue",
+    "ammo": "bfeed",
+    "skill": "pistol",
+    "range": 20,
+    "ranged_damage": 20,
+    "pierce": 5,
+    "dispersion": 250,
+    "sight_dispersion": 90,
+    "durability": 10,
+	"magazines": [ [ "bfeed", [ "bammomag" ] ] ],
+	"modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
+    "ammo_effects": [ "WIDE", "NOBIG" ],
+    "flags": [ "NEVER_JAMS", "TRADER_AVOID" ],
+	"valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "grip", 1 ],
+      [ "muzzle", 1 ],
+      [ "sights", 1 ],
+      [ "underbarrel", 1 ]
+    ]
   }
 ]

@@ -25,7 +25,7 @@
       [ "CUT_FINE", 3 ],
       [ "PRY", 4 ],
       [ "HAMMER", 3 ],
-      [ "HAMMER_FINE", 1 ],
+      [ "HAMMER_FINE", 4 ],
       [ "CHISEL", 3 ],
       [ "SAW_M_FINE", 5 ],
       [ "WRENCH_FINE", 1 ],
@@ -110,7 +110,7 @@
     "seals": true,
     "watertight": true,
     "armor_data": { "covers": [ "LEG_EITHER" ], "coverage": 5, "material_thickness": 2 },
-    "flags": [ "WAIST", "WATER_FRIENDLY" ]
+    "flags": [ "WAIST", "WATER_FRIENDLY", "STURDY" ]
   },
   {
     "id": "slimeskin2",
@@ -131,7 +131,7 @@
     "seals": true,
     "watertight": true,
     "armor_data": { "covers": [ "TORSO" ], "coverage": 10, "material_thickness": 2 },
-    "flags": [ "WAIST", "WATER_FRIENDLY" ]
+    "flags": [ "WAIST", "WATER_FRIENDLY", "STURDY" ]
   },
   {
     "id": "slimeskin3",
@@ -152,7 +152,7 @@
     "seals": true,
     "watertight": true,
     "armor_data": { "covers": [ "TORSO" ], "coverage": 15, "material_thickness": 2 },
-    "flags": [ "BELTED", "WATER_FRIENDLY" ]
+    "flags": [ "BELTED", "WATER_FRIENDLY", "STURDY" ]
   },
   {
     "id": "geljack",
@@ -168,6 +168,7 @@
     "material": "slime",
     "symbol": ";",
     "color": "light_gray",
+    "looks_like": "jackhammer",
     "ammo": "bfeed",
     "max_charges": 400,
     "charges_per_use": 10,
@@ -201,5 +202,67 @@
     "symbol": ";",
     "color": "blue",
     "qualities": [ [ "blobchemfact", 1 ] ]
+  },
+  {
+    "id": "gelhotplate",
+    "type": "TOOL",
+    "name": "gelectrode hotplate",
+    "description": "A couple of gelectrodes you grafted together with some blob globs. It works to generate heat for cooking and chemistry.",
+    "weight": "2000 g",
+    "volume": "1000 ml",
+    "to_hit": -1,
+    "bashing": 4,
+    "material": "slime",
+    "symbol": ";",
+    "color": "green",
+    "looks_like": "hotplate",
+    "ammo": "bfeed",
+    "charges_per_use": 3,
+    "use_action": "HOTPLATE",
+    "magazines": [ [ "bfeed", [ "bfmagmed" ] ] ],
+    "magazine_well": 10
+  },
+  {
+    "id": "gelheadlamp",
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "name": "gel headlamp (off)",
+    "name_plural": "gel headlamps (off)",
+    "description": "This is a gelectrode which you have crafted to be a wearable source of light. it goes on your head.",
+    "weight": "400 g",
+    "volume": "400 ml",
+    "price": 950,
+    "bashing": 8,
+    "to_hit": 2,
+    "material": [ "slime" ],
+    "flags": [ "OVERSIZE", "BELTED", "ALLOWS_NATURAL_ATTACKS" ],
+    "symbol": ";",
+    "color": "blue",
+    "charges_per_use": 1,
+    "ammo": "bfeed",
+    "use_action": {
+      "type": "transform",
+      "msg": "You turn on your headlamp",
+      "target": "gelheadlamp_on",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The gel headlamp is out of blob feed"
+    },
+    "covers": [ "HEAD" ],
+    "coverage": 15,
+    "material_thickness": 1,
+    "magazines": [ [ "bfeed", [ "bfmagmed" ] ] ],
+    "magazine_well": 10
+  },
+  {
+    "id": "gelheadlamp_on",
+    "copy-from": "gelheadlamp",
+    "type": "TOOL",
+    "name": "gel headlamp (on)",
+    "name_plural": "gel headlamps (on)",
+    "power_draw": 1500,
+    "revert_to": "gelheadlamp",
+    "use_action": { "menu_text": "Turn off", "type": "transform", "msg": "You turn off your gel headlamp.", "target": "gelheadlamp" },
+    "flags": [ "LIGHT_500" ]
   }
 ]
