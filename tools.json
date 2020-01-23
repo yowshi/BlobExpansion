@@ -264,20 +264,5 @@
     "revert_to": "gelheadlamp",
     "use_action": { "menu_text": "Turn off", "type": "transform", "msg": "You turn off your gel headlamp.", "target": "gelheadlamp" },
     "flags": [ "LIGHT_500" ]
-  },
-  {
-    "id": "helpspawn",
-    "name": "Slime helper pokeball",
-    "type": "TOOL",
-    "category": "tool",
-    "symbol": "[",
-    "color": "blue",
-    "description": "This is a mass of slime that is ready to mature into a slime helper.",
-    "flags": [ "TRADER_AVOID" ],
-    "price": 30000,
-    "material": [ "slime" ],
-    "weight": "1 g",
-    "volume": "10 ml",
-
   }
 ]
