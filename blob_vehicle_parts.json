@@ -6,7 +6,7 @@
     "symbol": "#",
     "color": "cyan",
     "broken_color": "cyan",
-    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "ALTERNATOR" ]
   },
   {
@@ -86,7 +86,7 @@
     "damage_modifier": 80,
     "damage_reduction": { "all": 60 },
     "folded_volume": 1,
-    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "TOOL_NONE", "FOLDABLE", "ENGINE" ]
   },
   {
@@ -107,7 +107,7 @@
     "floor_bedding_warmth": 450,
     "difficulty": 0,
     "folded_volume": 2,
-    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "location": "center",
     "flags": [ "BED", "BOARDABLE", "CARGO", "MOUNTABLE", "FOLDABLE", "TOOL_NONE" ],
     "damage_reduction": { "all": 3 }
@@ -128,7 +128,7 @@
     "damage_modifier": 10,
     "folded_volume": 1,
     "breaks_into": [ { "item": "queengrow" } ],
-    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "description": "An amorphous mass, the living heart and brain of a blob vehicle. This one is configured into a generalized control station.",
     "flags": [
       "BOARDABLE",
@@ -166,13 +166,13 @@
     "epower": 0,
     "difficulty": 0,
     "location": "on_roof",
-    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "VISION", "CAMERA", "TOOL_NONE", "FOLDABLE" ]
   },
   {
     "type": "vehicle_part",
     "id": "slimecam_ceiling",
-    "name": "slimecurity camera",
+    "name": "slimecurity camera - Ceiling",
     "symbol": "o",
     "looks_like": "omnicam",
     "color": "light_red",
@@ -188,7 +188,7 @@
     "epower": 0,
     "difficulty": 0,
     "location": "on_ceiling",
-    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "VISION", "CAMERA", "TOOL_NONE", "FOLDABLE" ]
   },
   {
@@ -207,7 +207,7 @@
     "breaks_into": [ { "item": "glowiegrow" } ],
     "description": "A living, glowing blob.  It latches on to an engine, or engine-equivilant, and produces electricity. This particular varient requires excessive horsepower, and produces equally excessive electricity.",
     "damage_reduction": { "all": 25 },
-    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "TOOL_NONE", "FOLDABLE", "ALTERNATOR" ]
   },
   {
@@ -226,7 +226,7 @@
     "difficulty": 0,
     "folded_volume": 5,
     "location": "center",
-    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "BOARDABLE", "CARGO", "COVERED", "FOLDABLE", "TOOL_NONE" ],
     "damage_reduction": { "all": 28 }
   },
@@ -246,11 +246,33 @@
     "folded_volume": 1,
     "description": "A living blob.  It acts as a wheel, and in this case, a set of casters.",
     "breaks_into": [ { "item": "glooplegrow" }, { "item": "water", "count": [ 50, 100 ] } ],
-    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "rolling_resistance": 1.75,
     "wheel_type": "standard",
     "contact_area": 153,
     "flags": [ "WHEEL", "TOOL_NONE", "FOLDABLE", "TRACKED", "STABLE", "STEERABLE" ]
+  },
+  {
+    "copy-from": "frostie_trunk",
+    "id": "frostie_trunk",
+    "type": "vehicle_part",
+    "name": "ice pack",
+    "item": "frostie",
+    "location": "center",
+    "symbol": "H",
+    "broken_symbol": "#",
+    "color": "light_blue",
+    "broken_color": "light_blue",
+    "difficulty": 3,
+    "durability": 100,
+    "epower": 0,
+    "size": 1000,
+    "damage_modifier": 80,
+    "folded_volume": 1,
+    "breaks_into": [ { "item": "frostiegrow" } ],
+    "description": "A living blob, existing in a super-cooled state.  It will keep items stored in it cold, reducing the speed at which food and drink rots.",
+    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
+    "flags": [ "CARGO", "OBSTACLE", "FRIDGE", "COVERED", "TOOL_NONE", "FOLDABLE" ]
   },
   {
     "id": "frostie_freezer",
@@ -271,8 +293,8 @@
     "folded_volume": 1,
     "breaks_into": [ { "item": "frostiegrow" } ],
     "description": "A living blob, existing in a super-cooled state.  It will keep items stored in it frozen, halting the speed at which food and drink rots, though some foods don't take well to being unfrozen.",
-    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "flags": [ "CARGO", "FREEZER", "COVERED", "TOOL_NONE", "FOLDABLE" ]
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
+    "flags": [ "CARGO", "OBSTACLE", "FREEZER", "COVERED", "TOOL_NONE", "FOLDABLE" ]
   },
   {
     "id": "gloople_wheel_sea",
@@ -290,7 +312,7 @@
     "folded_volume": 1,
     "breaks_into": [ { "item": "glooplegrow" } ],
     "description": "A living blob, existing in a super-cooled state.  It acts as a boat hull.",
-    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "FLOATS", "TOOL_NONE", "FOLDABLE", "EXTRA_DRAG", "SHARP", "TRACKED" ]
   },
   {
@@ -304,13 +326,13 @@
     "broken_color": "red",
     "damage_modifier": 10,
     "durability": 80,
-    "description": "A multi-function crafting station... Made out of blobs. Under the guidance of the queen, the blobs contort in your hands to the appropriate shapes. Unnervingly, it almost feels like it's learning to antipate what configurations you need before you'll need them.",
-    "size": 20000,
+    "description": "A multi-function crafting station... Made out of blobs. Under the guidance of the queen, the blobs contort in your hands to the appropriate shapes. Unnervingly, it almost feels like it's learning to antipate what configurations you need before you'll need them, and crafts along with you almost better then you can.",
+    "size": 10000,
     "folded_volume": 3,
     "item": "blob_crafter",
     "difficulty": 0,
     "location": "center",
-    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [
       "CARGO",
       "TOWEL",
@@ -328,6 +350,7 @@
       "KITCHEN",
       "WELDRIG"
     ],
+    "workbench": { "multiplier": 2, "mass": 150000, "volume": "200L" },
     "damage_reduction": { "all": 20 }
   },
   {
@@ -343,12 +366,12 @@
     "durability": 100,
     "description": "A washing and sanitation blob. With the usual materials, it can clean and sanitize what needs cleaning and sanitizing... with a 'shlorp'ing sound you're not sure you like.",
     "epower": 0,
-    "size": 160,
+    "size": 1000,
     "folded_volume": 1,
     "item": "gray",
     "difficulty": 0,
     "location": "center",
-    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "CARGO", "OBSTACLE", "WASHING_MACHINE", "DISHWASHER", "AUTOCLAVE", "COVERED", "TOOL_NONE", "FOLDABLE" ],
     "damage_reduction": { "all": 32 }
   },
@@ -369,7 +392,7 @@
     "difficulty": 0,
     "location": "on_roof",
     "folded_volume": 1,
-    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "FUNNEL", "FOLDABLE" ],
     "damage_reduction": { "all": 12 }
   },
@@ -388,7 +411,7 @@
     "difficulty": 0,
     "bonus": 30,
     "folded_volume": 1,
-    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "AISLE_LIGHT", "TOOL_NONE", "FOLDABLE" ]
   },
   {
@@ -409,7 +432,7 @@
     "item": "glowie",
     "difficulty": 0,
     "location": "on_cargo",
-    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "INTERNAL", "RECHARGE", "FOLDABLE", "TOOL_NONE" ],
     "folded_volume": 3,
     "damage_reduction": { "all": 10 }
@@ -430,7 +453,7 @@
     "folded_volume": 1,
     "item": "frostie",
     "location": "structure",
-    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "VISION", "PROTRUSION", "FOLDABLE" ]
   },
   {
@@ -449,7 +472,7 @@
     "folded_volume": 1,
     "item": "frostie",
     "location": "on_windshield",
-    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "VISION", "FOLDABLE" ]
   },
   {
@@ -469,7 +492,7 @@
     "bonus": 8000,
     "damage_modifier": 10,
     "folded_volume": 1,
-    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "CIRCLE_LIGHT", "FOLDABLE", "TOOL_NONE" ]
   },
   {
@@ -484,12 +507,10 @@
     "broken_color": "blue",
     "description": "A frost lancer that has been mounted to the vehicle tanks, and can draw water directly from them.",
     "difficulty": 0,
-	"range": 80,
-	"damage_modifier": 10,
     "folded_volume": 1,
     "breaks_into": [ { "item": "freezie" } ],
-    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
-    "extend": { "flags": [ "USE_TANKS", "FOLDABLE", "TOOL_NONE", "NOBIG" ] }
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
+    "extend": { "flags": [ "USE_TANKS", "FOLDABLE", "TOOL_NONE" ] }
   },
   {
     "type": "vehicle_part",
@@ -507,7 +528,7 @@
     "item": "queen",
     "description": "This queen has been attached to a turret mounting. It has learned to shoot anything besides you... Or at least, anything that doesn't feed it regularly.",
     "folded_volume": 1,
-    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "FOLDABLE", "TURRET_CONTROLS", "TOOL_NONE" ]
   },
   {
@@ -527,7 +548,7 @@
     "bonus": 25,
     "item": "gloople",
     "location": "on_windshield",
-    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "OPENABLE", "OPENCLOSE_INSIDE", "OPAQUE", "CURTAIN", "WINDOW_CURTAIN", "MULTISQUARE", "FOLDABLE", "TOOL_NONE" ]
   },
   {
@@ -544,7 +565,7 @@
     "difficulty": 0,
     "folded_volume": 1,
     "item": "gray",
-    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } },
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
     "flags": [ "WATCH", "ALARMCLOCK", "FOLDABLE", "TOOL_NONE" ]
   },
   {
@@ -565,6 +586,6 @@
     "difficulty": 0,
     "location": "on_roof",
     "flags": [ "SOLAR_PANEL", "TOOL_NONE", "FOLDABLE" ],
-    "requirements": { "repair": { "time": "5 m", "using": [ [ "blobrep", 1 ] ] } }
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } }
   }
 ]

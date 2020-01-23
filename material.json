@@ -22,11 +22,34 @@
     "cut_dmg_verb": "cut"
   },
   {
+    "type": "material",
+    "ident": "angryslime",
+    "name": "Agitated Slime",
+    "density": 6,
+    "specific_heat_liquid": 0.02,
+    "specific_heat_solid": 0.02,
+    "latent_heat": 205,
+    "soft": true,
+    "reinforces": true,
+    "bash_resist": 4,
+    "cut_resist": 4,
+    "acid_resist": 40,
+    "fire_resist": 40,
+    "elec_resist": 20,
+    "chip_resist": 20,
+    "repaired_with": "slime_scrap",
+    "salvaged_into": "slime_scrap",
+    "dmg_adj": [ "ripped", "torn", "shredded", "tattered" ],
+    "bash_dmg_verb": "ripped",
+    "cut_dmg_verb": "cut"
+  },
+  {
     "type": "COMESTIBLE",
+    "copy-from": "slime_scrap",
     "id": "slime_scrap",
     "category": "other",
     "name": "blob glob",
-    "weight": "238 g",
+    "weight": "20 g",
     "color": "dark_gray",
     "use_action": "POISON",
     "comestible_type": "FOOD",
@@ -34,7 +57,7 @@
     "calories": 174,
     "description": "A little hunk of glop that fell off a blob monster.  It doesn't seem hostile, but it does wiggle occasionally.",
     "price": 0,
-    "volume": "250 ml",
+    "volume": "20 ml",
     "fun": -10,
     "material": "slime"
   },
@@ -87,7 +110,7 @@
       ]
     ]
   },
-    {
+  {
     "id": "bammo",
     "type": "AMMO",
     "category": "ammo",

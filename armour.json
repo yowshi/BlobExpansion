@@ -17,6 +17,27 @@
     "material_thickness": 2,
     "qualities": [ [ "GLARE", 3 ] ],
     "material": [ "slime" ],
+    "ammo": "bfeed",
+    "use_action": {
+      "type": "transform",
+      "msg": "You activate your %s.",
+      "target": "queensuit_mad",
+      "active": true,
+      "need_charges": 1,
+      "need_charges_msg": "The %s is out of blob feed."
+    },
+    "magazines": [ [ "bfeed", [ "bfmag", "bfmagmed" ] ] ],
+    "magazine_well": 10
+  },
+  {
+    "id": "queensuit_mad",
+    "copy-from": "queensuit",
+    "type": "TOOL_ARMOR",
+    "encumbrance": 3,
+    "name": "queensuit - combat mode",
+    "name_plural": "queensuits (on)",
+        "material": [ "angryslime" ],
+    "description": "A Queen blob molded to act as an oversuit. It's adaptive intelligence provides many benefits, not least of which is it's internal climate control. You have the unnerving idea that it's somehow learning from you and the way you move. This queen has been incited into combat mode, and is consuming blob-feed to enhance your close combat abilities.",
     "extend": {
       "flags": [
         "ALARMCLOCK",
@@ -43,27 +64,6 @@
         "WATERPROOF"
       ]
     },
-    "ammo": "bfeed",
-    "use_action": {
-      "type": "transform",
-      "msg": "You activate your %s.",
-      "target": "queensuit_mad",
-      "active": true,
-      "need_charges": 1,
-      "need_charges_msg": "The %s is out of blob feed."
-    },
-    "magazines": [ [ "bfeed", [ "bfmag", "bfmagmed" ] ] ],
-    "magazine_well": 10
-  },
-  {
-    "id": "queensuit_mad",
-    "copy-from": "queensuit",
-    "type": "TOOL_ARMOR",
-    "encumbrance": 3,
-    "name": "queensuit - combat mode",
-    "name_plural": "queensuits (on)",
-    "description": "A Queen blob molded to act as an oversuit. It's adaptive intelligence provides many benefits, not least of which is it's internal climate control. You have the unnerving idea that it's somehow learning from you and the way you move. This queen has been incited into combat mode, and is consuming blob-feed to enhance your close combat abilities.",
-    "flags": [ "VARSIZE", "SKINTIGHT", "TRADER_AVOID", "CLIMATE_CONTROL", "STURDY", "RAD_PROOF" ],
     "artifact_data": {
       "effects_worn": [
         "AEP_ALL_UP",

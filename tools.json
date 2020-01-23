@@ -278,12 +278,6 @@
     "material": [ "slime" ],
     "weight": "1 g",
     "volume": "10 ml",
-    "use_action": {
-      "type": "place_npc",
-      "monster_id": "slime_help",
-      "friendly_msg": "Your slime helper matures and is ready to assist.",
-      "moves": 1,
-      "place_randomly": false
-    }
+
   }
 ]
