@@ -95,17 +95,34 @@
     "dispersion": 250,
     "sight_dispersion": 90,
     "durability": 10,
-	"magazines": [ [ "bfeed", [ "bammomag" ] ] ],
-	"modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
+    "magazines": [ [ "bfeed", [ "bammomag" ] ] ],
+    "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
     "ammo_effects": [ "WIDE", "NOBIG" ],
     "flags": [ "NEVER_JAMS", "TRADER_AVOID" ],
-	"valid_mod_locations": [
-      [ "accessories", 2 ],
-      [ "barrel", 1 ],
-      [ "grip", 1 ],
-      [ "muzzle", 1 ],
-      [ "sights", 1 ],
-      [ "underbarrel", 1 ]
-    ]
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "grip", 1 ], [ "muzzle", 1 ], [ "sights", 1 ], [ "underbarrel", 1 ] ]
+  },
+  {
+    "id": "slimesniper",
+    "copy-from": "rifle_base",
+    "looks_like": "ar15",
+    "type": "GUN",
+    "name": "Slime Sniper Rifle",
+    "description": "A long-range slime weapon. In exchange for dealing lower damage, it fires calcified projectiles at a high range, suitable for hunting purposes.",
+    "weight": "11020 g",
+    "volume": "3127 ml",
+    "price": 870000,
+    "to_hit": -1,
+    "bashing": 12,
+    "material": "slime",
+    "ammo": "bfeed",
+    "range": 45,
+    "ranged_damage": 12,
+    "dispersion": 50,
+    "durability": 8,
+    "reload": 450,
+    "barrel_length": 5,
+    "magazine_well": 1,
+    "magazines": [ [ "bfeed", [ "bammomag" ] ] ],
+    "flags": [ "NEVER_JAMS", "TRADER_AVOID" ]
   }
 ]

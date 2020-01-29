@@ -25,6 +25,23 @@
     "use_action": { "type": "deploy_furn", "furn_type": "slime_butcher_deployed" }
   },
   {
+    "type": "vehicle_part",
+    "id": "slimehorn",
+    "name": "slime horn",
+    "symbol": "*",
+    "color": "light_gray",
+    "broken_symbol": "*",
+    "broken_color": "red",
+    "damage_modifier": 10,
+    "durability": 300,
+    "description": "A powerful slime horn... VERY powerful. Use the vehicle controls and select the honk option to make noise, and consider ear protection first.",
+    "bonus": 500,
+    "item": "gray",
+    "requirements": { "repair": { "time": 30000, "using": [ [ "blobrep", 1 ] ] } },
+    "flags": [ "HORN" ],
+    "breaks_into": [ { "item": "graygrow", "prob": 90 } ]
+  },
+  {
     "type": "furniture",
     "id": "slime_butcher_deployed",
     "name": "slime butchering rack",

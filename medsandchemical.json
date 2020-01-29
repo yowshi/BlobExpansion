@@ -17,6 +17,31 @@
     "flags": "NPC_SAFE"
   },
   {
+    "id": "slimebandage",
+    "type": "COMESTIBLE",
+    "comestible_type": "MED",
+    "name": "slime bandage",
+    "description": "Slime bandages. Absolutely do not use if they haven't been fed.",
+    "weight": "70 g",
+    "volume": "250 ml",
+    "price": 600,
+    "material": "slime",
+    "symbol": "!",
+    "color": "white",
+    "charges": 3,
+    "stack_size": 9,
+    "flags": [ "NO_INGEST" ],
+    "use_action": {
+      "type": "heal",
+      "bandages_power": 10,
+      "disinfectant_power": 10,
+      "bleed": 1,
+      "bite": 1,
+      "move_cost": 300,
+      "effects": [ { "id": "pkill1", "duration": 720 } ]
+    }
+  },
+  {
     "type": "COMESTIBLE",
     "id": "slimy_fertilizer",
     "name": "slime produced fertilizer",

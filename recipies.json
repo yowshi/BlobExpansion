@@ -11,6 +11,39 @@
     "components": [ [ [ "gloople", 1 ] ], [ [ "glowie", 1 ] ], [ [ "bfeed", 100 ] ] ]
   },
   {
+    "result": "queensuit",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "24 h",
+    "autolearn": true,
+    "components": [ [ [ "queen", 1 ] ], [ [ "glowie", 2 ] ], [ [ "bfeed", 100 ] ] ]
+  },
+  {
+    "result": "ice_plinker",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "24 h",
+    "autolearn": true,
+    "components": [ [ [ "freezie", 1 ] ], [ [ "gray", 1 ] ], [ [ "bfeed", 15 ] ] ]
+  },
+  {
+    "result": "slimesniper",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "24 h",
+    "autolearn": true,
+    "components": [ [ [ "gray", 1 ] ], [ [ "biter", 1 ] ], [ [ "bfeed", 15 ] ] ]
+  },
+  {
     "result": "bfmag",
     "type": "recipe",
     "category": "CC_OTHER",
@@ -147,6 +180,17 @@
     "autolearn": true,
     "qualities": [ { "id": "HAMMER", "level": 3 } ],
     "components": [ [ [ "frostie", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "gelheadlamp",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "2 h",
+    "autolearn": true,
+    "components": [ [ [ "glowie", 1 ] ] ]
   },
   {
     "result": "blobprogramer",
