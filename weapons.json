@@ -95,7 +95,7 @@
     "dispersion": 250,
     "sight_dispersion": 90,
     "durability": 10,
-    "magazines": [ [ "bfeed", [ "bammomag" ] ] ],
+    "magazines": [ [ "bfeed", [ "bfmag" ], [ "bfmagmed" ] ] ],
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
     "ammo_effects": [ "WIDE", "NOBIG" ],
     "flags": [ "NEVER_JAMS", "TRADER_AVOID" ],
@@ -122,7 +122,7 @@
     "reload": 450,
     "barrel_length": 5,
     "magazine_well": 1,
-    "magazines": [ [ "bfeed", [ "bammomag" ] ] ],
+    "magazines": [ [ "bfeed", [ "bfmag" ], [ "bfmagmed" ] ] ],
     "flags": [ "NEVER_JAMS", "TRADER_AVOID" ]
   }
 ]
