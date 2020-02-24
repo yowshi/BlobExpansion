@@ -22,6 +22,17 @@
     "components": [ [ [ "queen", 1 ] ], [ [ "glowie", 2 ] ], [ [ "bfeed", 100 ] ] ]
   },
   {
+    "result": "remotegelcontrol",
+    "type": "recipe",
+    "category": "CSC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "cooking",
+    "difficulty": 5,
+    "time": "1 h",
+    "autolearn": true,
+    "components": [ [ [ "glowie", 1 ] ] ]
+  },
+  {
     "result": "ice_plinker",
     "type": "recipe",
     "category": "CC_WEAPON",
@@ -53,6 +64,49 @@
     "time": "10 s",
     "autolearn": true,
     "components": [ [ [ "bfeed", 10 ] ] ]
+  },
+  {
+    "copy-from": "bfeed",
+    "result": "bfeed",
+    "//": "The queen is eager to help you feed it. It's more efficient then using a knife, and faster, too.",
+    "type": "recipe",
+    "id_suffix": "queen assisted",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "cooking",
+    "difficulty": 4,
+    "time": 500,
+    "autolearn": true,
+    "tools": [ [ [ "queen", -1 ] ] ],
+    "components": [
+      [
+        [ "corpse", 1 ],
+        [ "bone_tainted", 2 ],
+        [ "bone_human", 2 ],
+        [ "meat", 2 ],
+        [ "meat_tainted", 2 ],
+        [ "human_flesh", 2 ],
+        [ "chitin_piece", 1 ],
+        [ "slime_scrap", 1 ],
+        [ "stomach", 1 ],
+        [ "stomach_large", 1 ],
+        [ "hstomach", 1 ],
+        [ "hstomach_large", 1 ]
+      ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "slime_scrap",
+    "id_suffix": "queen assisted",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_CHEMICALS",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "20 s",
+    "autolearn": true,
+    "tools": [ [ [ "gloople", -1 ], [ "oozle", -1 ], [ "gray", -1 ] ] ],
+    "components": [ [ [ "meat_tainted", 1 ], [ "dry_meat_tainted", 1 ] ] ]
   },
   {
     "result": "bfmagmed",
@@ -90,6 +144,7 @@
   {
     "type": "recipe",
     "result": "slime_scrap",
+    "byproducts": [ [ "slime_scrap", 1 ] ],
     "id_suffix": "blob assisted",
     "category": "CC_CHEM",
     "subcategory": "CSC_CHEM_CHEMICALS",
@@ -97,7 +152,7 @@
     "difficulty": 6,
     "time": "20 s",
     "autolearn": true,
-    "tools": [ [ [ "gloople", -1 ], [ "oozle", -1 ], [ "gray", -1 ] ] ],
+    "tools": [ [ [ "queen", -1 ] ] ],
     "components": [ [ [ "meat_tainted", 1 ], [ "dry_meat_tainted", 1 ] ] ]
   },
   {
@@ -217,6 +272,8 @@
   },
   {
     "result": "reconsuit",
+    "byproducts": [ [ "id_military", 1 ] ],
+    "//": "Added byproduct to allow you to unlock the mech once it's crafted.",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_MECH",

@@ -32,7 +32,6 @@
     "difficulty": 6,
     "time": "1 h",
     "autolearn": true,
-    "qualities": [ { "id": "blobchemfact", "level": 1 }, { "id": "blobprog", "level": 1 } ],
     "components": [ [ [ "gray", 1 ] ] ]
   },
   {

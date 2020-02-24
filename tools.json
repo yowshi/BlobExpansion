@@ -63,13 +63,46 @@
       {
         "type": "repair_item",
         "item_action_type": "repair_fabric",
-        "materials": [ "slime" ],
-        "skill": "tailor",
+        "materials": [ "slime", "angryslime", "flesh" ],
+        "skill": "cooking",
         "tool_quality": 1,
         "cost_scaling": 0.1,
         "move_cost": 800
       }
     ]
+  },
+  {
+    "id": "remotegelcontrol",
+    "type": "TOOL",
+    "name": "remote gelectric controller",
+    "description": "A gelectric remote controller for real cars.  Can turn onboard devices on and off.  Some cars can be driven remotely. Notably more efficient then the normal toy kind.",
+    "//": "Currently worthless, as the game is presently hardcoded to only allow the two specific controls to work. If they ever remove that unusual bug, it should work fine.",
+    "weight": "907 g",
+    "volume": "1 L",
+    "price": 2000,
+    "to_hit": -1,
+    "material": "slime",
+    "symbol": "#",
+    "color": "yellow",
+    "ammo": "battery",
+    "charges_per_use": 1,
+    "turns_per_charge": 30,
+    "use_action": "REMOTEVEH",
+    "magazines": [
+      [
+        "battery",
+        [
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_minus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell",
+          "light_minus_disposable_cell",
+          "light_disposable_cell"
+        ]
+      ]
+    ],
+    "magazine_well": 1
   },
   {
     "id": "slimey_water_purifier",
@@ -253,6 +286,44 @@
     "material_thickness": 1,
     "magazines": [ [ "bfeed", [ "bfmagmed" ] ] ],
     "magazine_well": 10
+  },
+  {
+    "id": "GPS_off",
+    "type": "TOOL_ARMOR",
+    "copy-from": "UPS_off",
+    "name": "GPS",
+    "name_plural": "GPS's",
+    "//": "Doesn't seem to work. Maybe UPSes are just hardcoded?",
+    "description": "This is a unified power supply, or UPS.  It is a device developed jointly by military and scientific interests for use in combat and the field.  The UPS is designed to power armor and some guns, but drains batteries quickly.  It can be worn around to either leg for ease of access, and it's been waterproofed to protect the delicate electronics.  Has it's own custom battery, with higher capacity and rechargeable, but not removeable",
+    "coverage": 5,
+    "ammo": "battery",
+    "initial_charges": 1000,
+    "max_charges": 3000,
+    "encumbrance": 2,
+    "covers": [ "LEG_EITHER", "ARM_EITHER" ],
+    "flags": [ "RECHARGE", "WAIST", "WATERPROOF", "IS_UPS", "NO_RELOAD", "NO_UNLOAD" ],
+    "magazines": [
+      [ "battery", [ "heavy_plus_battery_cell", "heavy_battery_cell", "heavy_atomic_battery_cell", "heavy_disposable_cell", "glowie" ] ]
+    ]
+  },
+  {
+    "copy-from": "glowie",
+    "id": "glowie",
+    "type": "MAGAZINE",
+    "category": "veh_parts",
+    "name": "gelectrode",
+    "//": "No Snake, eating it will not refill your batteries. But putting it a GPS will.",
+    "description": "A biological mystery, this blob has evolved the ability to slowly generate electricity through some unknown process, when properly molded and kickstarted.  It emits a low phosphorescent glow while doing so.  It is also capable of storing electricity from other sources, but doing so renders it inactive.  It seems pliable enough to pull apart…",
+    "weight": "5132 g",
+    "volume": "5 L",
+    "price": 500,
+    "to_hit": -3,
+    "bashing": 9,
+    "material": [ "flesh" ],
+    "symbol": "]",
+    "color": "cyan",
+    "ammo_type": "battery",
+    "capacity": 5000
   },
   {
     "id": "gelheadlamp_on",
