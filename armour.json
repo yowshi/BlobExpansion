@@ -5,10 +5,20 @@
     "id": "queensuit",
     "name": "queensuit",
     "symbol": "q",
-    "flags": [ "VARSIZE", "SKINTIGHT", "ALLOWS_NATURAL_ATTACKS", "TRADER_AVOID", "STURDY", "POWERARMOR_COMPATIBLE", "HOOD", "RAD_RESIST", "CLIMATE_CONTROL"  ],
+    "flags": [
+      "VARSIZE",
+      "SKINTIGHT",
+      "ALLOWS_NATURAL_ATTACKS",
+      "TRADER_AVOID",
+      "STURDY",
+      "POWERARMOR_COMPATIBLE",
+      "HOOD",
+      "RAD_RESIST",
+      "CLIMATE_CONTROL"
+    ],
     "encumbrance": 10,
     "weight": 9836,
-    "covers": ["MOUTH", "EYES", "TORSO", "ARMS", "HANDS", "LEGS" ],
+    "covers": [ "MOUTH", "EYES", "TORSO", "ARMS", "HANDS", "LEGS" ],
     "description": "A Queen blob molded to act as an oversuit. It's adaptive intelligence provides many benefits, not least of which is it's internal climate control. You have the unnerving idea that it's somehow learning from you and the way you move. The queen can be agitated to activate combat mode... If she's been fed.",
     "looks_like": "rm13_armor_on",
     "artifact_data": { "effects_worn": [ "AEP_ALL_UP", "AEP_CARRY_MORE", "AEP_PSYSHIELD", "AEP_FUN", "AEP_CLAIRVOYANCE" ] },
@@ -37,7 +47,7 @@
     "encumbrance": 3,
     "name": "queensuit - combat mode",
     "name_plural": "queensuits (on)",
-        "material": [ "angryslime" ],
+    "material": [ "angryslime" ],
     "description": "A Queen blob molded to act as an oversuit. It's adaptive intelligence provides many benefits, not least of which is it's internal climate control. You have the unnerving idea that it's somehow learning from you and the way you move. This queen has been incited into combat mode, and is consuming blob-feed to enhance your close combat abilities.",
     "extend": {
       "flags": [

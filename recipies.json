@@ -32,7 +32,7 @@
     "autolearn": true,
     "components": [ [ [ "glowie", 1 ] ] ]
   },
-    {
+  {
     "result": "SlimeTeleporter",
     "type": "recipe",
     "category": "CSC_OTHER",
@@ -43,7 +43,7 @@
     "autolearn": true,
     "components": [ [ [ "gray", 1 ] ], [ [ "glowie", 2 ] ], [ [ "queen", 1 ] ] ]
   },
-      {
+  {
     "result": "SlimeEcholocator",
     "type": "recipe",
     "category": "CSC_OTHER",
@@ -54,7 +54,7 @@
     "autolearn": true,
     "components": [ [ [ "gray", 2 ] ], [ [ "glowie", 1 ] ], [ [ "queen", 1 ] ] ]
   },
-        {
+  {
     "result": "FriendDispenser",
     "type": "recipe",
     "category": "CSC_OTHER",
@@ -329,7 +329,7 @@
     "autolearn": true,
     "components": [ [ [ "gray", 1 ] ] ]
   },
-    {
+  {
     "result": "slime_kit",
     "type": "recipe",
     "category": "CC_OTHER",

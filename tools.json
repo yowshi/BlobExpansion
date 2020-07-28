@@ -104,7 +104,7 @@
     ],
     "magazine_well": 1
   },
-    {
+  {
     "id": "slime_butcher_rack",
     "type": "TOOL",
     "name": "slime butchering rack",
@@ -139,7 +139,7 @@
     "use_action": "WATER_PURIFIER",
     "flags": [ "ALLOWS_REMOTE_USE" ]
   },
-    {
+  {
     "id": "SlimeTeleporter",
     "type": "TOOL",
     "name": "Void Transmitter",
@@ -159,7 +159,7 @@
     "use_action": { "type": "cast_spell", "spell_id": "void_translocate", "no_fail": true, "level": 25 },
     "flags": [ "ALLOWS_REMOTE_USE" ]
   },
-      {
+  {
     "id": "FriendDispenser",
     "type": "TOOL",
     "name": "Slimespring Pod",
@@ -179,12 +179,12 @@
     "use_action": { "type": "cast_spell", "spell_id": "spell_summon_slimespring", "no_fail": true, "level": 25 },
     "flags": [ "ALLOWS_REMOTE_USE" ]
   },
-    {
+  {
     "type": "SPELL",
     "id": "spell_summon_slimespring",
     "name": "Summon Slimespring",
     "description": "Spawns a Slimespring.",
-    "flags": ["PERMANENT" ],
+    "flags": [ "PERMANENT" ],
     "valid_targets": [ "ground" ],
     "base_casting_time": 200,
     "min_damage": 1,
@@ -195,7 +195,7 @@
     "effect": "summon",
     "effect_str": "mon_player_blob"
   },
-      {
+  {
     "id": "SlimeEcholocator",
     "type": "TOOL",
     "name": "Blob Sounder",
@@ -215,7 +215,7 @@
     "use_action": { "type": "cast_spell", "spell_id": "Blob_clairvoyance", "no_fail": true, "level": 25 },
     "flags": [ "ALLOWS_REMOTE_USE" ]
   },
-    {
+  {
     "id": "Blob_clairvoyance",
     "type": "SPELL",
     "name": "Clairvoyance",
@@ -236,7 +236,7 @@
     "min_field_intensity": 1,
     "max_field_intensity": 1
   },
-    {
+  {
     "id": "void_translocate",
     "type": "SPELL",
     "name": "Translocate Self",
@@ -430,7 +430,16 @@
     "covers": [ "LEG_EITHER", "ARM_EITHER" ],
     "flags": [ "RECHARGE", "WAIST", "WATERPROOF", "IS_UPS", "NO_RELOAD", "NO_UNLOAD" ],
     "magazines": [
-      [ "battery", [ "heavy_plus_battery_cell", "heavy_battery_cell", "heavy_atomic_battery_cell", "heavy_disposable_cell", "glowie" ] ]
+      [
+        "battery",
+        [
+          "heavy_plus_battery_cell",
+          "heavy_battery_cell",
+          "heavy_atomic_battery_cell",
+          "heavy_disposable_cell",
+          "glowie"
+        ]
+      ]
     ]
   },
   {
