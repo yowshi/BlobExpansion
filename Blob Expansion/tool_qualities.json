@@ -1,0 +1,17 @@
+[
+  {
+    "type": "tool_quality",
+    "id": "GRAFT",
+    "name": "grafting"
+  },
+  {
+    "type": "tool_quality",
+    "id": "blobprog",
+    "name": "program"
+  },
+  {
+    "type": "tool_quality",
+    "id": "blobchemfact",
+    "name": "blob chemical factory"
+  }
+]
