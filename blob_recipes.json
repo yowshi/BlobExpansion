@@ -1,36 +1,47 @@
 [
+
   {
-    "id": "blob_crafter",
-    "type": "GENERIC",
-    "name": "Pulsating Workstation",
-    "description": "A multi-function crafting station... Made out of blobs. Under the guidance of the queen, the blobs contort in your hands to the appropriate shapes. Unnervingly, it almost feels like it's learning to antipate what configurations you need before you'll need them.",
-    "weight": 21331,
-    "volume": 80,
-    "to_hit": -5,
-    "bashing": 10,
-    "material": [ "flesh" ],
-    "symbol": ")",
-    "color": "red"
+    "type": "furniture",
+    "copy-from": "f_magiclysm_translocator_gate",
+    "group": "constr_place_gate",
+    "id": "f_magiclysm_translocator_gate",
+    "move_cost_mod": 0,
+    "symbol": "X",
+    "description": "A gate for translocation.  Cast the translocation spell or use a translocator to choose this gate as a destination. This one seems unusually... Slimy.",
+    "color": "light_gray",
+    "required_str": 25,
+    "flags": [ "TRANSLOCATOR", "MOUNTABLE", "ALLOW_FIELD_EFFECT", "TOOL_NONE", "EASY_DECONSTRUCT" ],
+    "examine_action": "translocator",
+    "deconstruct": { "items": [ { "item": "voideater", "count": 1 } ] }
   },
   {
-    "result": "blob_crafter",
-    "type": "recipe",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "cooking",
-    "difficulty": 6,
-    "time": 15000,
-    "autolearn": true,
-    "components": [
-      [ [ "queen", 1 ] ],
-      [ [ "gloople", 1 ] ],
-      [ [ "horror", 1 ] ],
-      [ [ "frostie", 1 ] ],
-      [ [ "glowie", 1 ] ],
-      [ [ "gray", 1 ] ],
-      [ [ "razorqueen", 1 ] ],
-      [ [ "oozle", 1 ] ],
-      [ [ "torchie", 1 ] ]
-    ]
+    "type": "furniture",
+    "id": "voidgate",
+    "name": "Voideater Translocator Gate",
+    "looks_like": "f_magiclysm_translocator_gate",
+    "move_cost_mod": 0,
+    "symbol": "X",
+    "description": "Works just fine, apparently.",
+    "color": "light_gray",
+    "required_str": 25,
+    "flags": [ "TRANSLOCATOR", "MOUNTABLE", "ALLOW_FIELD_EFFECT" ],
+    "examine_action": "translocator",
+    "deconstruct": { "items": [ { "item": "voidgateitem", "count": 1 } ] }
+  },
+  {
+    "id": "voidgateitem",
+    "type": "TOOL",
+    "name": { "str": "pantsonhead" },
+    "description": "Apparently works fine, when deployed.",
+    "weight": "1000 g",
+    "volume": "2500 ml",
+    "price": 5000,
+    "to_hit": -4,
+    "bashing": 3,
+    "looks_like": "rollmat",
+    "material": [ "steel" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "use_action": { "type": "deploy_furn", "furn_type": "voidgate" }
   }
 ]
