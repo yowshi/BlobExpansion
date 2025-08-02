@@ -16,8 +16,7 @@
     "color": "blue",
     "skill": "rifle",
     "range": 60,
-    "ranged_damage": 100,
-    "pierce": 30,
+    "ranged_damage": [ { "damage_type": "bullet", "amount": 100, "armor_penetration": 30 } ],
     "dispersion": 5,
     "durability": 10,
     "loudness": 1,
@@ -29,8 +28,8 @@
       "msg": "Your blob suit swaps it's weapon out for it's mid range option.",
       "target": "slime_ice_rapid_reconsuit"
     },
-    "ammo_effects": [ "WIDE", "NOBIG" ],
-    "flags": [ "NO_UNLOAD", "NEVER_JAMS", "MECH_WEAPON", "NO_UNWIELD", "NO_SALVAGE", "NO_REPAIR", "UNBREAKABLE_MELEE" ]
+    "ammo_effects": [ "WIDE", "NOGIB" ],
+    "flags": [ "NO_UNLOAD", "NEVER_JAMS", "NO_UNWIELD", "NO_SALVAGE", "NO_REPAIR", "UNBREAKABLE_MELEE" ]
   },
   {
     "id": "slime_ice_rapid_reconsuit",
@@ -49,8 +48,7 @@
     "color": "blue",
     "skill": "rifle",
     "range": 25,
-    "ranged_damage": 50,
-    "pierce": 20,
+    "ranged_damage": [ { "damage_type": "bullet", "amount": 50, "armor_penetration": 20 } ],
     "dispersion": 25,
     "durability": 10,
     "loudness": 4,
@@ -63,17 +61,8 @@
       "target": "slime_ice_snipersuit"
     },
     "modes": [ [ "DEFAULT", "3 rd.", 3 ], [ "BURST", "5 rd.", 5 ], [ "AUTO", "high auto", 15 ] ],
-    "ammo_effects": [ "WIDE", "BOUNCE", "NOBIG" ],
-    "flags": [
-      "NO_UNLOAD",
-      "NEVER_JAMS",
-      "MECH_WEAPON",
-      "NO_UNWIELD",
-      "NO_SALVAGE",
-      "NO_REPAIR",
-      "UNBREAKABLE_MELEE",
-      "NON-FOULING"
-    ]
+    "ammo_effects": [ "WIDE", "BOUNCE", "NOGIB" ],
+    "flags": [ "NO_UNLOAD", "NEVER_JAMS", "NO_UNWIELD", "NO_SALVAGE", "NO_REPAIR", "UNBREAKABLE_MELEE", "NON_FOULING" ]
   },
   {
     "id": "ice_plinker",
@@ -87,19 +76,25 @@
     "material": [ "slime" ],
     "symbol": "&",
     "color": "light_blue",
-    "ammo": "bfeed",
+    "ammo": [ "bfeed" ],
     "skill": "pistol",
     "range": 20,
-    "ranged_damage": 20,
-    "pierce": 5,
+    "ranged_damage": [ { "damage_type": "bullet", "amount": 20, "armor_penetration": 5 } ],
     "dispersion": 250,
     "sight_dispersion": 90,
     "durability": 10,
-    "magazines": [ [ "bfeed", [ "bfmag" ], [ "bfmagmed" ] ] ],
+    "magazines": [ [ "bfeed", [ "bfmag", "bfmagmed" ] ] ],
     "modes": [ [ "DEFAULT", "semi-auto", 1 ], [ "AUTO", "auto", 5 ] ],
-    "ammo_effects": [ "WIDE", "NOBIG" ],
+    "ammo_effects": [ "WIDE", "NOGIB" ],
     "flags": [ "NEVER_JAMS", "TRADER_AVOID" ],
-    "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "grip", 1 ], [ "muzzle", 1 ], [ "sights", 1 ], [ "underbarrel", 1 ] ]
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "grip", 1 ],
+      [ "muzzle", 1 ],
+      [ "sights", 1 ],
+      [ "underbarrel", 1 ]
+    ]
   },
   {
     "id": "slimesniper",
@@ -113,16 +108,16 @@
     "price": 870000,
     "to_hit": -1,
     "bashing": 12,
-    "material": "slime",
-    "ammo": "bfeed",
+    "material": [ "slime" ],
+    "ammo": [ "bfeed" ],
     "range": 45,
-    "ranged_damage": 20,
+    "ranged_damage": [ { "damage_type": "bullet", "amount": 20 } ],
     "dispersion": 50,
     "durability": 8,
     "reload": 450,
-    "barrel_length": 5,
-    "magazine_well": 1,
-    "magazines": [ [ "bfeed", [ "bfmag" ], [ "bfmagmed" ] ] ],
+    "barrel_length": "250 ml",
+    "magazine_well": "250 ml",
+    "magazines": [ [ "bfeed", [ "bfmag", "bfmagmed" ] ] ],
     "flags": [ "NEVER_JAMS", "TRADER_AVOID" ]
   }
 ]

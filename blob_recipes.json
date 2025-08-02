@@ -21,16 +21,17 @@
     "difficulty": 6,
     "time": 15000,
     "autolearn": true,
-    "components": [
-      [ [ "queen", 1 ] ],
-      [ [ "gloople", 1 ] ],
-      [ [ "horror", 1 ] ],
-      [ [ "frostie", 1 ] ],
-      [ [ "glowie", 1 ] ],
-      [ [ "gray", 1 ] ],
-      [ [ "razorqueen", 1 ] ],
-      [ [ "oozle", 1 ] ],
-      [ [ "torchie", 1 ] ]
-    ]
+    "components": [ [ [ "queen", 1 ] ], [ [ "gloople", 1 ] ], [ [ "horror", 1 ] ], [ [ "frostie", 1 ] ], [ [ "glowie", 1 ] ], [ [ "gray", 1 ] ], [ [ "razorqueen", 1 ] ], [ [ "oozle", 1 ] ], [ [ "torchie", 1 ] ] ]
+  },
+  {
+    "result": "slime_butcher_rack",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": 15000,
+    "autolearn": true,
+    "components": [ [ [ "gloople", 1 ] ] ]
   }
 ]
