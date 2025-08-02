@@ -2,7 +2,6 @@
   {
     "result": "reconsuit",
     "byproducts": [ [ "id_military", 1 ] ],
-    "//": "Added byproduct to allow you to unlock the mech once it's crafted.",
     "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_MECH",
@@ -46,5 +45,132 @@
     "autolearn": true,
     "qualities": [ { "id": "GRAFT", "level": 1 } ],
     "components": [ [ [ "glowie", 2 ] ], [ [ "slime_scrap", 5 ] ] ]
+  },
+  {
+    "result": "slime_climate_suit",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "6 h",
+    "autolearn": true,
+    "components": [ [ [ "gloople", 1 ] ], [ [ "glowie", 1 ] ], [ [ "bfeed", 100 ] ] ]
+  },
+  {
+    "result": "queensuit",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "12 h",
+    "autolearn": true,
+    "components": [ [ [ "queen", 1 ] ], [ [ "glowie", 2 ] ], [ [ "bfeed", 100 ] ] ]
+  },
+  {
+    "result": "remotegelcontrol",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "cooking",
+    "difficulty": 5,
+    "time": "1 h",
+    "autolearn": true,
+    "components": [ [ [ "glowie", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "slime_scrap",
+    "byproducts": [ [ "slime_scrap", 1 ] ],
+    "id_suffix": "blob_assisted",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_CHEMICALS",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "20 s",
+    "autolearn": true,
+    "tools": [ [ [ "queen", -1 ] ] ],
+    "components": [ [ [ "meat_tainted", 1 ], [ "dry_meat_tainted", 1 ] ] ]
+  },
+  {
+    "result": "slimey_water_purifier",
+    "type": "recipe",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_OTHER",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "1 h",
+    "autolearn": true,
+    "components": [ [ [ "slime_scrap", 5 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "slimeskin",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_CONTAINERS",
+    "skill_used": "cooking",
+    "skills_required": [ [ "cooking", 6 ] ],
+    "difficulty": 2,
+    "time": "30 m",
+    "autolearn": true,
+    "components": [ [ [ "slime_scrap", 4 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "slimeskin2",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_CONTAINERS",
+    "skill_used": "cooking",
+    "skills_required": [ [ "cooking", 6 ] ],
+    "difficulty": 2,
+    "time": "30 m",
+    "autolearn": true,
+    "components": [ [ [ "slime_scrap", 8 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "slimeskin3",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_CONTAINERS",
+    "skill_used": "cooking",
+    "skills_required": [ [ "cooking", 6 ] ],
+    "difficulty": 2,
+    "time": "30 m",
+    "autolearn": true,
+    "components": [ [ [ "slime_scrap", 12 ] ] ]
+  },
+  {
+    "result": "bfmagmed",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "20 s",
+    "autolearn": true,
+    "components": [ [ [ "bfeed", 20 ] ] ]
+  },
+  {
+    "result": "bfmagheavy",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "20 s",
+    "autolearn": true,
+    "components": [ [ [ "bfeed", 500 ] ] ]
+  },
+  {
+    "result": "slimey_tool_block",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "6 h",
+    "autolearn": true,
+    "components": [ [ [ "gray", 1 ] ], [ [ "slime_scrap", 5 ] ] ]
   }
 ]

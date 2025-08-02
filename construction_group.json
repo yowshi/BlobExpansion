@@ -1,0 +1,42 @@
+[
+  {
+    "type": "construction_group",
+    "id": "constr_place_gate",
+    "name": "Translocator Gate"
+  },
+  {
+    "type": "construction_group",
+    "id": "constr_blob_downstair",
+    "name": "Dig Downstair using a gloople"
+  },
+  {
+    "type": "construction_group",
+    "id": "constr_blob_upstair",
+    "name": "Mine Upstairs using a gloople"
+  },
+  {
+    "type": "construction_group",
+    "id": "constr_water_blob",
+    "name": "Build a blob based water well"
+  },
+  {
+    "type": "construction_group",
+    "id": "constr_cleanwater_blob",
+    "name": "Build a blob based water purifier"
+  },
+  {
+    "type": "construction_group",
+    "id": "constr_saltwater_blob",
+    "name": "Build s blob based Saline Extractor"
+  },
+  {
+    "type": "construction_group",
+    "id": "constr_blobodoc",
+    "name": "Build Blobodoc"
+  },
+  {
+    "type": "construction_group",
+    "id": "constr_blobodoc_couch",
+    "name": "Build Blobodoc-Couch"
+  }
+]
