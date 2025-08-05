@@ -4,12 +4,38 @@
     "id": "HIBERNATE",
     "name": "slime pit",
     "points": 3,
-    "description": "You've developed the ability to go dormant as a slime pit trap.",
-    "valid": false,
+    "description": "You've developed the ability to go dormant as a slime pit trap. While hibernating, you heal slowly, consume no food or water, but cannot move or act.",
+    "valid": true,
     "prereqs": [ "SLIMESPAWNER" ],
     "threshreq": [ "THRESH_SLIME" ],
     "category": [ "SLIME" ],
     "active": true,
-    "cost": 0
+    "cost": 50,
+    "time": 100,
+    "fatigue": true,
+    "transform": {
+      "target": "HIBERNATE_ACTIVE",
+      "msg_transform": "You sink into the ground, becoming a dormant slime pit..."
+    }
+  },
+  {
+    "type": "mutation",
+    "id": "HIBERNATE_ACTIVE",
+    "name": "hibernating slime pit",
+    "points": 0,
+    "description": "You are currently dormant as a slime pit. You heal slowly but cannot move or act until you deactivate this state.",
+    "valid": true,
+    "category": [ "SLIME" ],
+    "active": true,
+    "cost": 0,
+    "movecost_modifier": 0.0,
+    "speed_modifier": -1.0,
+    "healing_resting": 2.0,
+    "mending_modifier": 3.0,
+    "metabolism_modifier": 0.1,
+    "transform": {
+      "target": "HIBERNATE",
+      "msg_transform": "You emerge from your dormant state, ready to act again."
+    }
   }
 ]

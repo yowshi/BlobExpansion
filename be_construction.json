@@ -1,0 +1,70 @@
+[
+  {
+    "type": "construction",
+    "id": "constr_blob_downstair",
+    "category": "DIG",
+    "required_skills": [ [ "fabrication", 0 ] ],
+    "time": "1 h",
+    "components": [ [ [ "gloople", 5 ] ] ],
+    "pre_special": "check_down_OK",
+    "post_special": "done_dig_stair"
+  },
+  {
+    "type": "construction",
+    "id": "constr_blob_upstair",
+    "category": "DIG",
+    "required_skills": [ [ "fabrication", 0 ] ],
+    "time": "1 h",
+    "components": [ [ [ "gloople", 5 ] ] ],
+    "pre_special": "check_up_OK",
+    "post_special": "done_mine_upstair"
+  },
+  {
+    "type": "construction",
+    "id": "constr_water_blob",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 0 ] ],
+    "time": "30 m",
+    "components": [ [ [ "gloople", 1 ] ] ],
+    "pre_terrain": "t_pit",
+    "post_terrain": "t_water_pump"
+  },
+  {
+    "type": "construction",
+    "id": "constr_cleanwater_blob",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 0 ] ],
+    "time": "30 m",
+    "components": [ [ [ "queen", 1 ] ] ],
+    "pre_terrain": "t_pit",
+    "post_terrain": "t_water_dispenser"
+  },
+  {
+    "type": "construction",
+    "id": "constr_saltwater_blob",
+    "category": "CONSTRUCT",
+    "required_skills": [ [ "fabrication", 0 ] ],
+    "time": "30 m",
+    "components": [ [ [ "gray", 1 ] ] ],
+    "pre_terrain": "t_pit",
+    "post_terrain": "t_swater_sh"
+  },
+  {
+    "type": "construction",
+    "id": "constr_blobodoc",
+    "category": "FURN",
+    "required_skills": [ [ "cooking", 8 ] ],
+    "time": "3 h",
+    "components": [ [ [ "queen", 1 ] ] ],
+    "post_furniture": "f_autodoc"
+  },
+  {
+    "type": "construction",
+    "id": "constr_blobodoc_couch",
+    "category": "FURN",
+    "required_skills": [ [ "cooking", 6 ] ],
+    "time": "30 m",
+    "components": [ [ [ "gloople", 1 ] ] ],
+    "post_furniture": "f_autodoc_couch"
+  }
+]

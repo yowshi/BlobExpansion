@@ -9,7 +9,7 @@
     "volume": "250 ml",
     "color": "light_green",
     "symbol": ",",
-    "material": [ "wheat" ],
+    "material": "wheat",
     "comestible_type": "FOOD",
     "calories": 800,
     "quench": -8,
@@ -26,7 +26,7 @@
     "price": "200 cent",
     "price_postapoc": "2 USD"
   },
-    {
+  {
     "id": "slime_wheat_seed",
     "copy-from": "seed",
     "type": "COMESTIBLE",
@@ -34,7 +34,7 @@
     "description": "Some slimy wheat seeds.",
     "price": "50 cent",
     "stack_size": 40,
-    "material": [ "wheat" ],
+    "material": "wheat",
     "primary_material": "dried_vegetable",
     "seed_data": { "plant_name": "slime_wheat", "fruit": "slime_wheat", "byproducts": [ "straw_pile" ], "grow": "19 days" }
   },
@@ -70,7 +70,7 @@
     "id": "slime_bread",
     "type": "COMESTIBLE",
     "category": "food",
-    "name": { "str": "slime bread", "str_pl": "slime bread" },
+    "name": { "str_sp": "slime bread" },
     "description": "A loaf of nutritionally complete bread made from slime flour. It has a slight green tint and a surprisingly pleasant, earthy flavor. This single food could sustain you indefinitely.",
     "weight": "50 g",
     "volume": "250 ml",
@@ -98,7 +98,7 @@
     "id": "slime_meat_bread",
     "type": "COMESTIBLE",
     "category": "food",
-    "name": { "str": "slime meat bread", "str_pl": "slime meat bread" },
+    "name": { "str_sp": "slime meat bread" },
     "description": "A hearty loaf combining slime flour with preserved meats. Nutritionally complete and incredibly filling, this represents the pinnacle of blob cuisine. The meat adds protein while maintaining the bread's complete vitamin profile.",
     "weight": "75 g",
     "volume": "375 ml",

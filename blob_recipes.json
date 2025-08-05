@@ -1,14 +1,119 @@
 [
   {
+  "result": "slime_turret_controls",
+  "type": "recipe",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_MATERIALS",
+  "skill_used": "cooking",
+  "difficulty": 4,
+  "time": "2 h",
+  "autolearn": true,
+  "qualities": [ { "id": "blobrep", "level": 1 } ],
+  "components": [ [ [ "gloople", 1 ] ], [ [ "slime_scrap", 2 ] ] ],
+  "description": "Shape and train a gloople into an intelligent turret control system."
+  },
+  {
+  "result": "frostie_wheel",
+  "type": "recipe",
+  "category": "CC_OTHER",
+  "subcategory": "CSC_OTHER_MATERIALS",
+  "skill_used": "cooking",
+  "difficulty": 8,
+  "time": "4 h 10 m",
+  "reversible": true,
+  "autolearn": true,
+  "components": [ [ [ "frostie", 1 ] ], [ [ "water", 200 ] ] ]
+  },
+  {
+    "result": "bfeed_cargo_item",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "4 h 10 m",
+    "autolearn": true,
+    "components": [ [ [ "gloople", 1 ] ] ]
+  },
+  {
+    "result": "gloopletread",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "4 h 10 m",
+    "autolearn": true,
+    "components": [ [ [ "gloople", 1 ] ] ]
+  },
+  {
+    "result": "oozletread",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "4 h 10 m",
+    "autolearn": true,
+    "components": [ [ [ "oozle", 1 ] ] ]
+  },
+  {
+    "result": "graytread",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "4 h 10 m",
+    "autolearn": true,
+    "components": [ [ [ "gray", 1 ] ] ]
+  },
+  {
+    "result": "gloople_wheel",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "4 h 10 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "gloople", 1 ] ], [ [ "water", 100 ] ] ]
+  },
+  {
+    "result": "gray_wheel",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "4 h 10 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "gray", 1 ] ], [ [ "water", 200 ] ] ]
+  },
+  {
+    "result": "oozle_wheel",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "cooking",
+    "difficulty": 6,
+    "time": "4 h 10 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "oozle", 1 ] ], [ [ "water", 200 ] ] ]
+  },
+  {
     "id": "blob_crafter",
     "type": "GENERIC",
-    "name": "Pulsating Workstation",
-    "description": "A multi-function crafting station... Made out of blobs. Under the guidance of the queen, the blobs contort in your hands to the appropriate shapes. Unnervingly, it almost feels like it's learning to antipate what configurations you need before you'll need them.",
+    "name": { "str": "Pulsating Workstation", "str_pl": "Pulsating Workstations" },
+    "description": "A multi-function crafting station... Made out of blobs. Under the guidance of the queen, the blobs contort in your hands to the appropriate shapes. Unnervingly, it almost feels like it's learning to anticipate what configurations you need before you'll need them.",
     "weight": 21331,
     "volume": 80,
     "to_hit": -5,
     "bashing": 10,
-    "material": [ "flesh" ],
+    "material": "flesh",
     "symbol": ")",
     "color": "red"
   },
@@ -19,19 +124,18 @@
     "subcategory": "CSC_OTHER_MATERIALS",
     "skill_used": "cooking",
     "difficulty": 6,
-    "time": 15000,
+    "time": "4 h 10 m",
     "autolearn": true,
-    "components": [ [ [ "queen", 1 ] ], [ [ "gloople", 1 ] ], [ [ "horror", 1 ] ], [ [ "frostie", 1 ] ], [ [ "glowie", 1 ] ], [ [ "gray", 1 ] ], [ [ "razorqueen", 1 ] ], [ [ "oozle", 1 ] ], [ [ "torchie", 1 ] ] ]
-  },
-  {
-    "result": "slime_butcher_rack",
-    "type": "recipe",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_MATERIALS",
-    "skill_used": "cooking",
-    "difficulty": 6,
-    "time": 15000,
-    "autolearn": true,
-    "components": [ [ [ "gloople", 1 ] ] ]
+    "components": [
+      [ [ "queen", 1 ] ],
+      [ [ "gloople", 1 ] ],
+      [ [ "horror", 1 ] ],
+      [ [ "frostie", 1 ] ],
+      [ [ "glowie", 1 ] ],
+      [ [ "gray", 1 ] ],
+      [ [ "razorqueen", 1 ] ],
+      [ [ "oozle", 1 ] ],
+      [ [ "torchie", 1 ] ]
+    ]
   }
 ]

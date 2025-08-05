@@ -5,7 +5,7 @@
     "name": "Return Of The Blob",
     "authors": [ "Dev_Null", "yowshi" ],
     "maintainers": [ "Anyone" ],
-    "description": "Expands the amount of blob-based vehicle parts and adds comprehensive slime-based equipment and creatures.",
+    "description": "Blob based survival and technology. Adds comprehensive slime-based equipment, creatures, and amphibious vehicle parts that can transition seamlessly between land and water.",
     "category": "content",
     "dependencies": [ "bn" ]
   }

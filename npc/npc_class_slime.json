@@ -2,7 +2,7 @@
   {
     "type": "npc_class",
     "id": "NC_SLIME_HELPER",
-    "name": "Slime Helper",
+    "name": { "str": "Slime Helper" },
     "job_description": "I have been grown to assist you.",
     "common": false,
     "bonus_str": { "rng": [ 0, 12 ] },

@@ -7,7 +7,7 @@
   {
     "type": "tool_quality",
     "id": "blobprog",
-    "name": "program"
+    "name": "blob programming"
   },
   {
     "type": "tool_quality",
@@ -18,5 +18,10 @@
     "type": "tool_quality",
     "id": "blobgrind",
     "name": "blob grinding"
+  },
+  {
+    "type": "tool_quality",
+    "id": "blobrep",
+    "name": "blob repair"
   }
 ]

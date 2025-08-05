@@ -83,37 +83,37 @@
     "time": "5 s",
     "components": [ [ [ "queengrow", 2 ] ] ]
   },
-  {
+    {
     "type": "uncraft",
     "result": "meltie",
     "time": "5 s",
     "components": [ [ [ "meltiegrow", 2 ] ] ]
   },
-  {
+      {
     "type": "uncraft",
     "result": "frostie",
     "time": "5 s",
     "components": [ [ [ "frostiegrow", 2 ] ] ]
   },
-  {
+            {
     "type": "uncraft",
     "result": "glowie",
     "time": "5 s",
     "components": [ [ [ "glowiegrow", 2 ] ] ]
   },
-  {
+              {
     "type": "uncraft",
     "result": "oozle",
     "time": "5 s",
     "components": [ [ [ "oozlegrow", 2 ] ] ]
   },
-  {
+          {
     "type": "uncraft",
     "result": "gray",
     "time": "5 s",
     "components": [ [ [ "graygrow", 2 ] ] ]
   },
-  {
+        {
     "type": "uncraft",
     "result": "gloople",
     "time": "5 s",
