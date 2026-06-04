@@ -1,7 +1,6 @@
 [
   {
     "id": "slime_ice_snipersuit",
-    "copy-from": "rifle_semi",
     "looks_like": "ar15",
     "type": "GUN",
     "reload_noise_volume": 1,
@@ -13,7 +12,9 @@
     "to_hit": 5,
     "bashing": 60,
     "material": "slime",
+    "symbol": "(",
     "color": "blue",
+    "skill": "rifle",
     "ammo": [ "bfeed" ],
     "range": 60,
     "ranged_damage": { "damage_type": "stab", "amount": 100, "armor_penetration": 30 },

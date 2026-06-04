@@ -1058,14 +1058,14 @@
     "id": "gloople_tank",
     "type": "vehicle_part",
     "name": { "str": "capsule (10L)" },
-    "item": "gloople_tank",
+    "item": "gloople",
     "location": "fuel_source",
     "symbol": "O",
     "broken_symbol": "#",
     "color": "light_green",
     "broken_color": "light_green",
     "durability": 250,
-    "size": 5000,
+    "size": "2500 L",
     "damage_modifier": 10,
     "folded_volume": 20,
     "breaks_into": [ { "item": "glooplegrow" } ],
@@ -1078,15 +1078,15 @@
       "qualities": [ { "id": "blobrep", "level": 1 } ],
       "components": [ [ [ "slime_scrap", 1 ] ] ]
     }},
-    "flags": [ "FOLDABLE", "FLUIDTANK" ]
+    "flags": [ "FLUIDTANK" ]
   },
   {
     "id": "gloople_tank_large",
     "type": "vehicle_part",
     "copy-from": "gloople_tank",
     "name": { "str": "gel tank (60L)" },
-    "item": "gloople_tank_large",
-    "size": 60000,
+    "item": "gloople",
+    "size": "15000 L",
     "folded_volume": 240
   },
   {
@@ -1568,14 +1568,14 @@
     "id": "gray_tank",
     "type": "vehicle_part",
     "name": { "str": "cocoon (30L)" },
-    "item": "gray_tank",
+    "item": "gray",
     "location": "fuel_source",
     "symbol": "O",
     "broken_symbol": "#",
     "color": "light_gray",
     "broken_color": "light_gray",
     "durability": 1000,
-    "size": 10000,
+    "size": "3500 L",
     "damage_modifier": 10,
     "folded_volume": 40,
     "breaks_into": [ { "item": "graygrow" } ],
@@ -1588,15 +1588,15 @@
       "qualities": [ { "id": "blobrep", "level": 1 } ],
       "components": [ [ [ "slime_scrap", 1 ] ] ]
     }},
-    "flags": [ "FOLDABLE", "FLUIDTANK" ]
+    "flags": [ "FLUIDTANK" ]
   },
   {
     "id": "gray_tank_large",
     "type": "vehicle_part",
     "copy-from": "gray_tank",
     "name": { "str": "gray tank (100L)" },
-    "item": "gray_tank_large",
-    "size": 100000,
+    "item": "gray",
+    "size": "25000 L",
     "folded_volume": 400
   },
   {
@@ -2345,7 +2345,7 @@
     "color": "green",
     "broken_color": "green",
     "durability": 500,
-    "size": 7500,
+    "size": "7500 L",
     "damage_modifier": 10,
     "folded_volume": 30,
     "breaks_into": [ { "item": "oozlegrow" } ],
@@ -2358,7 +2358,7 @@
       "components": [ [ [ "slime_scrap", 1 ] ] ]
     }},
     "description": "A living blob, formed into a storage space for holding liquids. If filled with the appropriate fuel for the vehicle's engine, the engine will automatically draw fuel from the tank when the engine is on. If filled with water, you can access the water from a water faucet, if one is installed in the vehicle. You can also use a rubber hose to siphon liquids out of a tank.",
-    "flags": [ "FOLDABLE", "FLUIDTANK" ]
+    "flags": [ "FLUIDTANK" ]
   },
   {
     "id": "oozle_tank_large",
@@ -2366,7 +2366,7 @@
     "copy-from": "oozle_tank",
     "name": { "str": "ooze tank (80L)" },
     "item": "oozle",
-    "size": 8000,
+    "size": "20000 L",
     "folded_volume": 320
   },
   {

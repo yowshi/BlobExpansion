@@ -1,0 +1,37 @@
+[
+  {
+    "type": "construction_group",
+    "id": "constr_blob_downstair",
+    "name": "Construct Blob Downstair"
+  },
+  {
+    "type": "construction_group",
+    "id": "constr_blob_upstair",
+    "name": "Construct Blob Upstair"
+  },
+  {
+    "type": "construction_group",
+    "id": "constr_water_blob",
+    "name": "Create a waterblob"
+  },
+  {
+    "type": "construction_group",
+    "id": "constr_cleanwater_blob",
+    "name": "Create a clean waterblob"
+  },
+  {
+    "type": "construction_group",
+    "id": "constr_saltwater_blob",
+    "name": "Create a salt waterblob"
+  },
+  {
+    "type": "construction_group",
+    "id": "constr_blobodoc",
+    "name": "Build an entire autodoc from blob!"
+  },
+  {
+    "type": "construction_group",
+    "id": "constr_blobodoc_couch",
+    "name": "Build a comfy autodoc couch from blob!"
+  }
+  ]

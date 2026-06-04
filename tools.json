@@ -24,6 +24,7 @@
       [ "BUTCHER", 30 ],
       [ "CUT_FINE", 3 ],
       [ "PRY", 4 ],
+      [ "PULL_FINE", 2 ],
       [ "HAMMER", 3 ],
       [ "HAMMER_FINE", 4 ],
       [ "CHISEL", 3 ],
@@ -36,6 +37,7 @@
       [ "GRAFT", 1 ],
       [ "DIG", 4 ]
     ],
+    "use_action": [ "HAMMER", "CROWBAR" ],
     "ammo": [ "bfeed" ],
     "initial_charges": 400,
     "max_charges": 400
@@ -58,7 +60,7 @@
     "initial_charges": 400,
     "max_charges": 400,
     "charges_per_use": 1,
-    "qualities": [ [ "SEW", 4 ], [ "SEW_CURVED", 1 ], [ "KNIT", 1 ], [ "LEATHER_AWL", 2 ], [ "CUT", 1 ] ],
+    "qualities": [ [ "SEW", 4 ], [ "SEW_CURVED", 1 ], [ "KNIT", 1 ], [ "LEATHER_AWL", 2 ], [ "CUT", 1 ], [ "blobrep", 1 ] ],
     "use_action": [
       {
         "type": "repair_item",
