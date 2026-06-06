@@ -13,6 +13,108 @@
   "description": "Shape and train a gloople into an intelligent turret control system."
   },
   {
+    "result": "bot_blob_turret",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "cooking",
+    "skills_required": [ [ "fabrication", 3 ] ],
+    "difficulty": 6,
+    "time": "3 h",
+    "autolearn": true,
+    "qualities": [ { "id": "blobrep", "level": 1 } ],
+    "components": [
+      [ [ "slime_turret_controls", 1 ] ],
+      [ [ "ice_plinker", 1 ] ],
+      [ [ "gloople", 2 ] ],
+      [ [ "slime_scrap", 4 ] ],
+      [ [ "bfeed", 50 ] ]
+    ],
+    "description": "Shape a slime turret controller and an ice needle launcher into a single dormant, self-anchoring sentry blob."
+  },
+  {
+    "result": "bot_blob_guard_turret",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "cooking",
+    "skills_required": [ [ "fabrication", 3 ] ],
+    "difficulty": 5,
+    "time": "2 h 30 m",
+    "autolearn": true,
+    "qualities": [ { "id": "blobrep", "level": 1 } ],
+    "components": [
+      [ [ "slime_turret_controls", 1 ] ],
+      [ [ "biter", 1 ] ],
+      [ [ "gloople", 2 ] ],
+      [ [ "slime_scrap", 4 ] ],
+      [ [ "bfeed", 50 ] ]
+    ],
+    "description": "Bind a slime turret controller to a biting blob, then fold it into a dormant, self-anchoring close guard blob."
+  },
+  {
+    "result": "bot_blob_guard_large_turret",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "cooking",
+    "skills_required": [ [ "fabrication", 4 ] ],
+    "difficulty": 6,
+    "time": "3 h 30 m",
+    "autolearn": true,
+    "qualities": [ { "id": "blobrep", "level": 1 } ],
+    "components": [
+      [ [ "slime_turret_controls", 1 ] ],
+      [ [ "horror", 1 ] ],
+      [ [ "oozle", 1 ] ],
+      [ [ "gloople", 2 ] ],
+      [ [ "slime_scrap", 6 ] ],
+      [ [ "bfeed", 50 ] ]
+    ],
+    "description": "Bind a slime turret controller to a blobsaw barrier and fold it into a dormant, self-anchoring heavy guard blob."
+  },
+  {
+    "result": "bot_blob_flamethrower_turret",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "cooking",
+    "skills_required": [ [ "fabrication", 3 ] ],
+    "difficulty": 6,
+    "time": "3 h",
+    "autolearn": true,
+    "qualities": [ { "id": "blobrep", "level": 1 } ],
+    "components": [
+      [ [ "slime_turret_controls", 1 ] ],
+      [ [ "torchie", 1 ] ],
+      [ [ "gloople", 2 ] ],
+      [ [ "slime_scrap", 4 ] ],
+      [ [ "gasoline", 200 ] ]
+    ],
+    "description": "Bind a slime turret controller to a fire puffer, then fold it into a dormant, self-anchoring flamethrower blob."
+  },
+  {
+    "result": "bot_blob_lightning_turret",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_MATERIALS",
+    "skill_used": "cooking",
+    "skills_required": [ [ "fabrication", 3 ] ],
+    "difficulty": 6,
+    "time": "3 h",
+    "autolearn": true,
+    "qualities": [ { "id": "blobrep", "level": 1 } ],
+    "components": [
+      [ [ "slime_turret_controls", 1 ] ],
+      [ [ "sparkie", 1 ] ],
+      [ [ "glowie", 1 ] ],
+      [ [ "gloople", 2 ] ],
+      [ [ "slime_scrap", 4 ] ],
+      [ [ "bfeed", 50 ] ]
+    ],
+    "description": "Bind a slime turret controller to a shock bulb and a gelectrode, then fold it into a dormant, self-anchoring lightning blob."
+  },
+  {
   "result": "frostie_wheel",
   "type": "recipe",
   "category": "CC_OTHER",

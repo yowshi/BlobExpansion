@@ -15,5 +15,120 @@
     "color": "light_gray",
     "flags": [ "BUTCHER_RACK" ],
     "use_action": { "type": "deploy_furn", "furn_type": "slime_butcher_deployed" }
+  },
+  {
+    "id": "bot_blob_turret",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "dormant blob turret", "str_pl": "dormant blob turrets" },
+    "description": "A basketball-sized ball of dormant, faintly pulsing ooze wrapped around a calcified spine launcher.  Set it down and feed it the blob feed in your inventory to wake it; once roused it will anchor itself in place, recognize you as part of the hive, and spit ice needles at anything that isn't.",
+    "weight": "20 kg",
+    "volume": "30 L",
+    "price": 5000,
+    "price_postapoc": "60 USD",
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "flesh" ],
+    "symbol": ";",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_blob_turret",
+      "difficulty": 3,
+      "moves": 100,
+      "skills": [ "cooking" ]
+    }
+  },
+  {
+    "id": "bot_blob_guard_turret",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "dormant blob guard turret", "str_pl": "dormant blob guard turrets" },
+    "description": "A folded mat of dormant, faintly pulsing ooze studded with hard little nubs.  Set it down and feed it blob feed to wake it; once roused it anchors in place and shreds anything that steps next to it with calcified teeth.",
+    "weight": "18 kg",
+    "volume": "25 L",
+    "price": 4500,
+    "price_postapoc": "50 USD",
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "flesh" ],
+    "symbol": ";",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_blob_guard_turret",
+      "difficulty": 3,
+      "moves": 100,
+      "skills": [ "cooking" ]
+    }
+  },
+  {
+    "id": "bot_blob_guard_large_turret",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "dormant large blob guard turret", "str_pl": "dormant large blob guard turrets" },
+    "description": "A heavy folded slab of dormant ooze veined with saw-like ridges.  Set it down and feed it blob feed to wake it; once roused it anchors in place and reduces anything within two tiles to ribbons.",
+    "weight": "30 kg",
+    "volume": "45 L",
+    "price": 6500,
+    "price_postapoc": "70 USD",
+    "to_hit": -3,
+    "bashing": 10,
+    "material": [ "flesh" ],
+    "symbol": ";",
+    "color": "green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_blob_guard_large_turret",
+      "difficulty": 4,
+      "moves": 100,
+      "skills": [ "cooking" ]
+    }
+  },
+  {
+    "id": "bot_blob_flamethrower_turret",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "dormant blob flamethrower turret", "str_pl": "dormant blob flamethrower turrets" },
+    "description": "A dormant red ooze with a reek of petrochemicals and a hardened ignition gland.  Set it down and feed it gasoline to wake it; once roused it anchors in place and spits burning ooze like napalm at intruders within 12 tiles. Is it dangerous to trust a turret with a flamethrower? Of course it is.",
+    "weight": "22 kg",
+    "volume": "30 L",
+    "price": 5500,
+    "price_postapoc": "65 USD",
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "flesh" ],
+    "symbol": ";",
+    "color": "light_red",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_blob_flamethrower_turret",
+      "difficulty": 3,
+      "moves": 100,
+      "skills": [ "cooking" ]
+    }
+  },
+  {
+    "id": "bot_blob_lightning_turret",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "dormant blob lightning turret", "str_pl": "dormant blob lightning turrets" },
+    "description": "A dormant light-blue ooze laced with sizzling gelectrode tissue. It has a scent of ozone.  Set it down and feed it blob feed to wake it; once roused it anchors in place and fries intruders within 8 tiles with arcs of electricity.",
+    "weight": "22 kg",
+    "volume": "30 L",
+    "price": 6000,
+    "price_postapoc": "65 USD",
+    "to_hit": -3,
+    "bashing": 8,
+    "material": [ "flesh" ],
+    "symbol": ";",
+    "color": "cyan",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_blob_lightning_turret",
+      "difficulty": 3,
+      "moves": 100,
+      "skills": [ "cooking" ]
+    }
   }
 ]

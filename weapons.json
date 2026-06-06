@@ -123,5 +123,68 @@
     "magazines": [ [ "bfeed", [ "bfmag" ], [ "bfmagmed" ] ] ],
     "ammo_effects": [ "NOGIB" ],
     "flags": [ "NEVER_JAMS", "TRADER_AVOID" ]
+  },
+  {
+    "id": "blob_turret_fake",
+    "copy-from": "ice_plinker",
+    "type": "GUN",
+    "name": { "str": "blob turret needler" },
+    "description": "If you see it - it is bug!",
+    "ammo": "bfeed",
+    "range": 18,
+    "ranged_damage": { "damage_type": "stab", "amount": 22, "armor_penetration": 6 },
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 6 ] ],
+    "clip_size": 300,
+    "magazines": [  ]
+  },
+  {
+    "id": "blob_guard_turret_fake",
+    "copy-from": "biter",
+    "type": "GUN",
+    "name": { "str": "blob guard turret teeth" },
+    "description": "If you see it - it is bug!",
+    "ammo": "bfeed",
+    "range": 1,
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 5 ] ],
+    "clip_size": 300,
+    "magazines": [  ]
+  },
+  {
+    "id": "blob_guard_large_turret_fake",
+    "copy-from": "horror",
+    "type": "GUN",
+    "name": { "str": "large blob guard turret fangs" },
+    "description": "If you see it - it is bug!",
+    "ammo": "bfeed",
+    "range": 2,
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 20 ] ],
+    "clip_size": 300,
+    "magazines": [  ]
+  },
+  {
+    "id": "blob_flamethrower_turret_fake",
+    "copy-from": "torchie",
+    "type": "GUN",
+    "name": { "str": "blob flamethrower turret gland" },
+    "description": "If you see it - it is bug!",
+    "ammo": "gasoline",
+    "range": 12,
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 3 ] ],
+    "clip_size": 300,
+    "magazines": [  ]
+  },
+  {
+    "id": "blob_lightning_turret_fake",
+    "copy-from": "sparkie",
+    "type": "GUN",
+    "name": { "str": "blob lightning turret node" },
+    "description": "If you see it - it is bug!",
+    "ammo": "bfeed",
+    "ups_charges": 0,
+    "range": 8,
+    "ranged_damage": 30,
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 3 ] ],
+    "clip_size": 300,
+    "magazines": [  ]
   }
 ]

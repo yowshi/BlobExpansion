@@ -3,9 +3,9 @@
     "type": "MOD_INFO",
     "id": "BlazemodBlobAddon",
     "name": "Return Of The Blob",
-    "authors": [ "Dev_Null", "yowshi" ],
+    "authors": [ "Dev_Null", "yowshi", "MSCantrell" ],
     "maintainers": [ "Anyone" ],
-    "description": "Blob based survival and technology. Adds comprehensive slime-based equipment, creatures, and amphibious vehicle parts that can transition seamlessly between land and water.",
+    "description": "Blob based survival and technology. Adds comprehensive slime-based weapons, armor, tools, creatures, turrets, and vehicle parts, all crafted from everyone's favorite renewable resource- dead zombies.",
     "category": "content",
     "dependencies": [ "bn" ]
   }
