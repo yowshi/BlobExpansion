@@ -828,7 +828,7 @@
       "qualities": [ { "id": "blobrep", "level": 1 } ],
       "components": [ [ [ "slime_scrap", 1 ] ] ]
     }},
-    "flags": [ "TURRET", "FOLDABLE" ]
+    "flags": [ "TURRET", "FOLDABLE", "USE_TANKS" ]
   },
   {
     "id": "frostie_ram",
@@ -3083,7 +3083,7 @@
     "durability": 10,
     "clip_size": 100,
     "ammo_effects": [ "WIDE" ],
-    "flags": [ "NEVER_JAMS", "NO_RELOAD", "FIRE_20" ]
+    "flags": [ "NEVER_JAMS", "FIRE_20" ]
   },
   {
     "id": "frostie",
